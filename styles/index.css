@@ -1,0 +1,45 @@
+/* Mürüvvet Our Product Categories Start  */
+.homepage-our-products-section {
+    margin-left: 50px; 
+}
+
+.op-left-menu-upper-container {
+    display: flex;
+    max-width: 1240px;
+    margin: 32px 0px;
+}
+
+.lmu-accordion {
+    width: 290px;
+    padding: 10px 15px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    border-radius: 10px;
+}
+
+.lmu-accordion div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+
+.lmu-accordion .a-kids-room {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.lmu-accordion div .script {
+    font-family: Poppins;
+    font-size: clamp(12px 8vw 16px);
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+    padding: 10px 0px;
+}
+
+.lmu-accordion div .plus-image {
+    max-width: 8.16px;
+    max-height: 8.16px;
+}
+/* Mürüvvet Our Product Categories End  */
