@@ -1,15 +1,15 @@
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
-    margin-left: 50px auto; 
+    margin-left: 50px 0px; 
 }
 
-.op-left-menu-upper-container {
+.homepage-our-products-section .op-left-menu-upper-container {
     display: flex;
-    max-width: 1240px;
+    max-width: 1350px;
     margin: 32px auto;
 }
 
-.lmu-accordion {
+.op-left-menu-upper-container .lmu-accordion {
     width: 290px;
     padding: 10px 15px;
     border: 1px solid rgba(241, 241, 241, 1);
@@ -24,7 +24,7 @@
     border-bottom: 1px solid rgba(241, 241, 241, 1);
 }
 
-.a-room .a-kids-room {
+.lmu-accordion .a-kids-room {
     border-bottom: none;
     margin-bottom: 0px;
 }
