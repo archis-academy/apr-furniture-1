@@ -1,14 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-a {
-  text-decoration: none;
-}
 .furniro-navbar {
-  padding: 2% 5%;
+  padding: 35px 20px;
   width: 100%;
 }
 .furniro {
@@ -40,7 +31,7 @@ a {
   width: 60px;
   height: 45px;
 }
-.furniro-logo h1 {
+.furniro-logo p {
   color: #3a3a3a;
   font-size: clamp(22px, 4vw, 34px);
   font-weight: 700;
