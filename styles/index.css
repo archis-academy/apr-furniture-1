@@ -20,75 +20,61 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0px;
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(241, 241, 241, 1);
 }
 
 
 /* ............................................... */
-.a-room ul, input[type="checkbox"] {
+.a-room ul, input {
     display: none;
 }
 
-
-#living-room-dropdown:checked ~ ul li {
-    margin: 0px;
-}
 
 #living-room-dropdown:checked ~ ul {
     list-style: none;
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 260px;
-    transform: translate(-10%, 60%);
-}
-
-/* #living-room-dropdown:checked ~ ul li {
-    gap: 10px;
-} */
-
-#living-room-dropdown:checked ~ ul li div {
-    /* position: fixed; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    max-width: 240px;
-    color: rgba(58, 58, 58, 1);
-}
-
-#living-room-dropdown ~ ul li div input {
-    display: flex;
-    align-items: end;
-}
-
-#dropdown {
-    max-width: 24px;
-    max-height: 24px;
-}
-
-#dropdown:checked {
-    accent-color: rgba(46, 193, 172, 1);
-}
-
-#living-room-dropdown:checked ~ ul li div p {
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16.8px;
+    transform: translate(0%, 60%);
+    padding: 10px;
+    margin-top: 10px;
 }
 
 label:hover {
     cursor: pointer;
 }
 
-label {
+#living-room-dropdown {
     position: fixed;
-    z-index: 3;
-    position: relative;
     text-align: right;
+}
+
+#living-room-dropdown:checked ~ ul li div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    margin-top: 10px;
+}
+
+#living-room-dropdown:checked ~ ul li div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+#living-room-dropdown ~ ul li div input {
+    display: flex;
+}
+
+#dropdown:hover {
+    cursor: pointer;
+}
+
+#dropdown:checked {
+    accent-color: rgba(46, 193, 172, 1);
 }
 /* .............................................. */
 
@@ -98,12 +84,11 @@ label {
 }
 
 .a-room .script {
-    font-family: Poppins;
-    font-size: clamp(12px 8vw 16px);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     line-height: 19.2px;
     color: rgba(58, 58, 58, 1);
-    padding: 10px 0px;
 }
 
 .a-room .plus-image {
@@ -111,3 +96,22 @@ label {
     max-height: 8.16px;
 }
 /* Mürüvvet Our Product Categories End  */
+
+/* .menu-icon {
+    background-color: rgba(223, 105, 81, 1);
+    height: 4px;
+    width: 20px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.menu-icon::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(223, 105, 81, 1);
+    height: 3.5px;
+    width: 100%;
+    top: 5px;
+    border-radius: 50px;
+    transform: rotate(90deg);
+} */
