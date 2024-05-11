@@ -24,6 +24,74 @@
     border-bottom: 1px solid rgba(241, 241, 241, 1);
 }
 
+
+/* ............................................... */
+.a-room ul, input[type="checkbox"] {
+    display: none;
+}
+
+
+#living-room-dropdown:checked ~ ul li {
+    margin: 0px;
+}
+
+#living-room-dropdown:checked ~ ul {
+    list-style: none;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 260px;
+    transform: translate(-10%, 60%);
+}
+
+/* #living-room-dropdown:checked ~ ul li {
+    gap: 10px;
+} */
+
+#living-room-dropdown:checked ~ ul li div {
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    max-width: 240px;
+    color: rgba(58, 58, 58, 1);
+}
+
+#living-room-dropdown ~ ul li div input {
+    display: flex;
+    align-items: end;
+}
+
+#dropdown {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+#dropdown:checked {
+    accent-color: rgba(46, 193, 172, 1);
+}
+
+#living-room-dropdown:checked ~ ul li div p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+label {
+    position: fixed;
+    z-index: 3;
+    position: relative;
+    text-align: right;
+}
+/* .............................................. */
+
 .lmu-accordion .a-kids-room {
     border-bottom: none;
     margin-bottom: 0px;
