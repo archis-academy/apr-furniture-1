@@ -1,0 +1,66 @@
+.page-product-comparison-services-section {
+    background-color: rgba(252, 248, 243, 1);
+    margin: 80px auto;
+}
+
+.page-product-comparison-services-section .services-section-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.services-section-container .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.service .service-image {
+    max-width: 60px;
+}
+
+.service-image img {
+    width: 100%;
+}
+
+.service .text {
+    font-family: "Poppins", sans-serif;
+    color: rgba(172, 172, 172, 1);
+}
+
+.text .service-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    margin-bottom: 2px;
+}
+
+.text .service-sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+@media (max-width: 1000px) {
+    .service .service-image {
+        width: 50%;
+    }
+    .text .service-title {
+        font-size: 18px;
+        line-height: 25px; 
+    }
+    .text .service-sub-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .page-product-comparison-services-section .services-section-container {
+        margin: 0px auto;
+        flex-direction: column;
+        gap: 25px;
+    }
+}
