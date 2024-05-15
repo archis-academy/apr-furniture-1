@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.single-yellow {
+  width: 100%;
+  background-color: #fcf8f3;
+  display: flex;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+.single-yellow-text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+  gap: 20px;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1350px;
+}
+.single-yellow-text .yellow-text {
+  color: #acacac;
+  font-family: "Poppins", sans;
+  font-size: clamp(12px, 4vw, 16px);
+  font-weight: 400;
+}
+.single-yellow-text .sofa {
+  color: #3a3a3a;
+  font-family: "Poppins", sans;
+  font-size: clamp(12px, 4vw, 16px);
+  font-weight: 400;
+}
+.four-piece-furniture {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.first-furniture {
+  position: relative;
+}
+.first-furniture span {
+  position: absolute;
+  width: 76px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fcf8f3;
+  left: 0;
+  z-index: -1;
+}
+.second-furniture {
+  position: relative;
+}
+.second-furniture span {
+  position: absolute;
+  width: 76px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fcf8f3;
+  left: 0;
+  z-index: -1;
+}
+.third-furniture {
+  position: relative;
+}
+.third-furniture span {
+  position: absolute;
+  width: 76px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fcf8f3;
+  left: 0;
+  z-index: -1;
+}
+.fourth-furniture {
+  position: relative;
+}
+.fourth-furniture span {
+  position: absolute;
+  width: 76px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fcf8f3;
+  left: 0;
+  z-index: -1;
+}
+.furniture-single {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 85px;
+}
+.furniture-single-img {
+  max-width: 1850px;
+  padding: 60px 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0px auto;
+}
+
+.big-furniture-img {
+  position: relative;
+}
+.big-furniture-img span {
+  position: absolute;
+  width: 423px;
+  height: 510px;
+  flex-shrink: 0;
+  left: 33px;
+  top: -33px;
+  border-radius: 10px;
+  background: #fcf8f3;
+  z-index: -1;
+}
+.single-text h1 {
+  color: #3a3a3a;
+  font-family: "Poppins", sans;
+  font-size: 42px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.single-text p {
+  color: #acacac;
+  font-family: "Poppins", sans;
+  font-size: 24px;
+  font-weight: 500;
+}
+.furniture-text {
+  padding: 40px 0px;
+}
+.single-text span {
+  color: #3a3a3a;
+  font-family: "Poppins", sans;
+  font-size: 13px;
+  font-weight: 400;
+}
+.single-text-stars img {
+  width: 20px;
+  height: 20px;
+}
+.single-text-stars {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0px;
+}
+.single-text-stars .stars-text {
+  color: #acacac;
+  font-family: "Poppins", sans;
+  font-size: 13px;
+  font-weight: 400;
+}
+.line .img {
+  width: 1px;
+  height: 30px;
+}
+.third-color-text p {
+  color: #acacac;
+  font-family: "Poppins", sans;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+.third-color {
+  display: flex;
+  gap: 18px;
+}
+.third-color .purple-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #816dfa;
+}
+.third-color .black-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #3a3a3a;
+}
+.third-color .brown-color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: #b88e2f;
+}
+.first-buttons {
+  width: 123px;
+  height: 64px;
+  border-radius: 10px;
+  border: 1px solid #acacac;
+  background: #fff;
+  cursor: pointer;
+}
+.first-buttons .button-text {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.furniture-buttons {
+  padding: 20px 0px;
+}
+.second-button button {
+  width: 215px;
+  height: 64px;
+  border-radius: 15px;
+  border: 1px solid #3a3a3a;
+  background-color: #fff;
+  cursor: pointer;
+}
+.second-button button p {
+  color: #3a3a3a;
+  font-family: "Poppins", sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+.third-button {
+  width: 215px;
+  height: 64px;
+  border-radius: 15px;
+  border: 1px solid #3a3a3a;
+  background-color: #fff;
+  cursor: pointer;
+}
+.third-button .third-button-text {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  justify-content: center;
+  padding: 17px 0px;
+}
+.furniture-buttons {
+  display: flex;
+  gap: 24px;
+  padding: 50px 0px;
+  flex-wrap: wrap;
+}
+.social-media-icon img {
+  cursor: pointer;
+}
