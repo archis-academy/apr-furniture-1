@@ -62,6 +62,19 @@ label:hover {
 
 .menu-element-item #dropdown-input {
     cursor: pointer;
+    position: relative;
+}
+
+.menu-element-item #dropdown-input:checked:before {
+    content: '';
+    background-color: rgba(46, 193, 172, 1);
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 8px;
 }
 
 .menu-element-item #dropdown-input:checked {
