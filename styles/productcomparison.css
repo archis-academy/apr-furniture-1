@@ -1,0 +1,226 @@
+.page-product-comparison-main-section {
+    padding: 0px 20px;
+    margin-top: 80px;
+}
+
+.page-product-comparison-main-section .main-section-container {
+    max-width: 1220px;
+    margin: 0px auto;
+}
+
+.main-section-container .more-products {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+}
+
+.more-products .go-to {
+    width: 223px;
+}
+
+.go-to .product-page {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35.42px;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 20px;
+}
+
+.go-to .view-more {
+    max-width: 115px;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-more .more {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(172, 172, 172, 1);
+}
+
+.view-more .horizontal-line {
+    width: 100%;
+}
+
+.more-products .sofa-whole{
+    width: 280px;
+}
+
+.sofa-whole .sofa-image {
+    width: 100%;
+    padding: 20px 22px 15px 19px;
+    background-color: rgba(252, 248, 243, 1);
+    border-radius: 10px;
+}
+
+.sofa-whole .sofa-price {
+    margin: 10px 0px;
+}
+
+.sofa-price .sofa {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.36px;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 5px;
+}
+
+.sofa-price .price {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.sofa-whole .staring {
+    display: flex;
+    align-items: center;
+}
+
+.staring .out-of {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(58, 58, 58, 1);
+    margin-right: 5px;
+}
+
+.staring .star {
+    display: flex;
+    gap: 6px;
+    margin-right: 10px;
+}
+
+/* .staring .star img {
+} */
+
+.staring .line-review {
+    display: flex;
+    align-items: center;
+}
+
+.line-review .vertical-line {
+    margin-right: 10px;
+}
+
+.line-review .review {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgba(172, 172, 172, 1);
+}
+
+.more-products .add-product { 
+    width: 242px;
+    align-content: center;
+}
+
+.add-product .add {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.36px;
+    color: rgba(58, 58, 58, 1);
+    width: 176px;
+}
+
+.add-product .choose-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 14px;
+    padding: 10px 20px;
+    background-color: rgba(184, 142, 47, 1);
+    border-radius: 6px;
+}
+
+.choose-product .choose {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.71px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.choose-product .arrow {
+    max-width: 18px;
+    max-height: 8.5px;
+}
+
+@media (max-width: 1185px) {
+    .sofa-whole .staring {
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
+    }
+    .staring .vertical-line {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .main-section-container .more-products {
+        gap: 40px;
+    }
+    .go-to .product-page {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .view-more .more {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .view-more .horizontal-line {
+        width: 80%;
+    }
+    .sofa-price .sofa {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .sofa-price .price {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .staring .out-of {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .staring .star {
+        gap: 2px;
+    }
+    /* .staring .star img {
+    } */
+    .line-review .review {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .add-product .add {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .add-product .choose-product {
+        width: 75%;
+        margin-top: 10px;
+    }
+    .choose-product .choose {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .choose-product .arrow {
+        max-width: 12px;
+        max-height: 6px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Appears correctly in all phone screens. Is this media query necessary? */
+}
