@@ -27,7 +27,6 @@
 
 .service .text {
     font-family: "Poppins", sans-serif;
-    color: rgba(172, 172, 172, 1);
 }
 
 .text .service-title {
@@ -35,17 +34,22 @@
     font-weight: 600;
     line-height: 37.5px;
     margin-bottom: 2px;
+    color: rgba(58, 58, 58, 1);
 }
 
 .text .service-sub-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    color: rgba(172, 172, 172, 1);
 }
 
 @media (max-width: 1000px) {
-    .service .service-image {
-        width: 50%;
+    .services-section-container .service {
+        gap: 0px;
+    }
+    .service-image img {
+        width: 75%;
     }
     .text .service-title {
         font-size: 18px;
@@ -57,10 +61,31 @@
     }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
+    .services-section-container .service {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .service .text {
+        text-align: center;
+    } 
+}
+
+@media (max-width: 750px) {
     .page-product-comparison-services-section .services-section-container {
         margin: 0px auto;
         flex-direction: column;
-        gap: 25px;
+        gap: 30px;
+    }
+    .service-image img {
+        width: 100%;
+    }
+    .text .service-title {
+        font-size: 20px;
+        line-height: 37.5px; 
+    }
+    .text .service-sub-title {
+        font-size: 16px;
+        line-height: 30px;
     }
 }
