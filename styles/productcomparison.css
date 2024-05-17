@@ -46,7 +46,7 @@
     width: 100%;
 }
 
-.more-products .sofa-whole{
+.more-products .sofa-whole {
     width: 280px;
 }
 
@@ -118,7 +118,7 @@
     color: rgba(172, 172, 172, 1);
 }
 
-.more-products .add-product { 
+.more-products .add-product {
     width: 242px;
     align-content: center;
 }
@@ -161,8 +161,7 @@
     width: 961px;
 }
 
-.product-properties .property-container {
-}
+.product-properties .property-container {}
 
 .property-container .property-title {
     font-family: "Poppins", sans-serif;
@@ -199,8 +198,7 @@
     gap: 30px;
 }
 
-.property-description .warranty {
-}
+.property-description .warranty {}
 
 .property-description .war {
     display: flex;
@@ -223,6 +221,7 @@
 
 .product-properties .whole-warranty {
     margin-top: 80px;
+    width: 874px;
 }
 
 .property .warranty-explanation1 {
@@ -237,24 +236,26 @@
     width: 241px;
 }
 
-.property-container .add-to-cart-buttons {
+.whole-warranty .add-to-cart {
     margin: 108px 42px 0px 42px;
     display: flex;
-    /* justify-content: flex-start;
-    align-items: flex-end; */
+    justify-content: right;
     gap: 108px;
 }
 
-.add-to-cart-buttons .add-to-cart {
+.add-to-cart .cart {
     padding: 17px 48px;
     background-color: rgba(184, 142, 47, 1);
     border: 1px solid rgba(184, 142, 47, 1);
 }
 
-
-
-
-
+.cart .cart-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
 
 @media (max-width: 1185px) {
     .sofa-whole .staring {
@@ -262,60 +263,78 @@
         align-items: start;
         gap: 5px;
     }
+
     .staring .vertical-line {
         display: none;
     }
+}
+
+@media (max-width: 950px) {
+    /* Appears correctly in all phone screens. Is this media query necessary? */
+    /* Media query for the product properties div */
 }
 
 @media (max-width: 750px) {
     .main-section-container .more-products {
         gap: 40px;
     }
+
     .go-to .product-page {
         font-size: 20px;
         line-height: 26px;
     }
+
     .view-more .more {
         font-size: 15px;
         line-height: 20px;
     }
+
     .view-more .horizontal-line {
         width: 85%;
     }
+
     .sofa-price .sofa {
         font-size: 20px;
         line-height: 25px;
     }
+
     .sofa-price .price {
         font-size: 14px;
         line-height: 20px;
     }
+
     .staring .out-of {
         font-size: 14px;
         line-height: 20px;
     }
+
     .staring .star {
         gap: 2px;
     }
+
     /* .staring .star img {
     } */
     .line-review .review {
         font-size: 12px;
         line-height: 16px;
     }
+
     .add-product .add {
         font-size: 18px;
         line-height: 25px;
     }
+
     .add-product .choose-product {
         width: 75%;
         margin-top: 7px;
     }
+
     .choose-product .choose {
         font-size: 12px;
         line-height: 14px;
         text-align: center;
     }
+
     .choose-product .arrow {
         max-width: 12px;
         max-height: 6px;
@@ -324,4 +343,5 @@
 
 @media (max-width: 600px) {
     /* Appears correctly in all phone screens. Is this media query necessary? */
+    /* Media query for the more products div */
 }
