@@ -1,0 +1,55 @@
+.page-product-comparison-header-section {
+  background-image: url("/images/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 316px;
+}
+
+.page-product-comparison-header-section .header-section-container {
+  /* margin: auto; */
+  text-align: center;
+  padding-top: 80px;
+}
+
+.header-section-container .logo {
+}
+
+.header-section-container .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.header-section-container .sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.sub-title .from-home {
+  font-weight: 500;
+}
+
+.sub-title .dash {
+}
+
+.sub-title .to-comparison {
+  font-weight: 300;
+}
+
+@media (max-width: 535px) {
+  .header-section-container .title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+}
