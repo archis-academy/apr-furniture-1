@@ -1,1 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+/* Gulsah Homepage Room Inspirations Start */
+.homepage-room-inspirations {
+  height: 670px;
+  width: 100%;
+  background-color: rgba(252, 248, 243, 1);
+  display: flex;
+  align-items: center;
+}
+
+.inspiration-cta-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.inspiration-cta-section button {
+  background-color: rgba(184, 142, 47, 1);
+  border: none;
+  width: 176px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.inspiration-cta-section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.inspiration-cta-section p {
+  color: rgba(172, 172, 172, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 7px;
+}
+
+
+
+/* Gulsah Homepage Room Inspirations End */
