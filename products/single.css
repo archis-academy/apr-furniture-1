@@ -103,7 +103,11 @@ a {
   gap: 35px;
   margin: 0px auto;
 }
-
+.single-text-stars span{
+  width: 1.7px;
+  height: 30px;
+  background: #ACACAC;
+}
 .big-furniture-img {
   position: relative;
 }
@@ -256,13 +260,13 @@ a {
   padding: 0 15px;
   flex-wrap: wrap;
 }
-.single-product-details-title h1 {
+.single-product-details-title .single-bold-title {
   color: #3a3a3a;
   font-family: "Poppins", sans;
   font-size: clamp(18px, 4vw, 24px);
   font-weight: 500;
 }
-.single-product-details-title p {
+.single-product-details-title .single-thin-title {
   color: #acacac;
   font-family: "Poppins", sans;
   font-size: clamp(18px, 4vw, 24px);
@@ -342,7 +346,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 60px 25px;
-  
 }
 .single-product-details-showroom-title h1 {
   color: #3a3a3a;
@@ -398,7 +401,7 @@ a {
   gap: 4px;
   margin: 10px 0px;
 }
-.single-product-details-showroom-groups-img-text-stars .price {
+.single-product-details-showroom-groups-img-text-stars .single-price {
   color: #3a3a3a;
   font-family: "Poppins", sans;
   font-size: 14px;
@@ -424,30 +427,30 @@ a {
   left: 6px;
   z-index: 999;
 }
-.showroom-buttons{
+.showroom-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px 0px;
   padding: 0px 20px;
 }
-.showroom-buttons button{
+.showroom-buttons button {
   width: 245px;
   height: 48px;
-border: 1px solid #B88E2F;
-background: #FFF;
-cursor: pointer;
+  border: 1px solid #b88e2f;
+  background: #fff;
+  cursor: pointer;
 }
-.showroom-buttons button p{
-  color: #B88E2F;
-font-family: "Poppins",sans;
-font-size: clamp(10px , 4vw , 16px);
-font-weight: 600;
-line-height: 24px; 
-text-align: center;
+.showroom-buttons button p {
+  color: #b88e2f;
+  font-family: "Poppins", sans;
+  font-size: clamp(10px, 4vw, 16px);
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
 }
-@media only screen and (max-width:240px;) {
-  .showroom-buttons button{
+@media only screen and (max-width: 240px) {
+  .showroom-buttons button {
     width: 180px;
     height: 40px;
   }
