@@ -7,6 +7,7 @@
   background-color: rgba(252, 248, 243, 1);
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .inspiration-cta-section {
@@ -28,14 +29,14 @@
   cursor: pointer;
 }
 
-.inspiration-cta-section h2 {
+.header-two {
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
   color: rgba(58, 58, 58, 1);
 }
 
-.inspiration-cta-section p {
+.paragraph-style {
   color: rgba(172, 172, 172, 1);
   font-weight: 500;
   font-size: 16px;
@@ -43,6 +44,59 @@
   margin-top: 7px;
 }
 
+.slides{
+  display: flex;
+  margin-left: 42px;
+  justify-content: space-between;
+  gap: 24px;
+  margin-right: 100px;
+}
 
+.image-description{
+  position: relative;
+  width: 404px;
+  height: 582px;
+}
 
+.slider-image-1{
+  position: absolute;
+}
+
+.white-box{
+  position: absolute;
+  width: 217px;
+  height: 130px;
+  background-color: rgba(241, 241, 241, 1);
+  margin-top: 428px;
+  margin-left: 24px;
+}
+
+.vector-1{
+  position: absolute;
+  margin-top: 510px;
+  margin-left: 241px;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+}
+
+.indicator{
+  margin-top: 40px;
+}
+
+.white-box h2{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: rgba(58, 58, 58, 1);
+  text-align: center;
+}
+
+.white-box .paragraph-style{
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
 /* Gulsah Homepage Room Inspirations End */
