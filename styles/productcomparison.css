@@ -1,347 +1,259 @@
 .page-product-comparison-main-section {
-    padding: 0px 20px;
-    margin-top: 80px;
+  padding: 0px 20px;
+  margin-top: 80px;
 }
 
 .page-product-comparison-main-section .main-section-container {
-    max-width: 1220px;
-    margin: 0px auto;
+  max-width: 1220px;
+  margin: 0px auto;
 }
 
 .main-section-container .more-products {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+  flex-wrap: wrap;
 }
 
 .more-products .go-to {
-    width: 223px;
+  width: 223px;
 }
 
 .go-to .product-page {
-    font-family: "Poppins", sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 35.42px;
-    color: rgba(58, 58, 58, 1);
-    margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.42px;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 20px;
 }
 
 .go-to .view-more {
-    max-width: 115px;
-    display: flex;
-    flex-direction: column;
+  max-width: 115px;
+  display: flex;
+  flex-direction: column;
 }
 
 .view-more .more {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: rgba(172, 172, 172, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(172, 172, 172, 1);
 }
 
 .view-more .horizontal-line {
-    width: 100%;
+  width: 100%;
 }
 
-.more-products .sofa-whole {
-    width: 280px;
+.more-products .sofa-wrapper {
+  max-width: 280px;
 }
 
-.sofa-whole .sofa-image {
-    width: 100%;
-    padding: 20px 22px 15px 19px;
-    background-color: rgba(252, 248, 243, 1);
-    border-radius: 10px;
+.sofa-wrapper .sofa-image {
+  width: 100%;
+  padding: 20px 22px 15px 19px;
+  background-color: rgba(252, 248, 243, 1);
+  border-radius: 10px;
 }
 
-.sofa-whole .sofa-price {
-    margin: 10px 0px;
+.sofa-wrapper .sofa-price {
+  margin: 10px 0px;
 }
 
 .sofa-price .sofa {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30.36px;
-    color: rgba(58, 58, 58, 1);
-    margin-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.36px;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 5px;
 }
 
 .sofa-price .price {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color: rgba(58, 58, 58, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(58, 58, 58, 1);
 }
 
-.sofa-whole .staring {
-    display: flex;
-    align-items: center;
+.sofa-wrapper .staring {
+  display: flex;
+  align-items: center;
 }
 
 .staring .out-of {
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    color: rgba(58, 58, 58, 1);
-    margin-right: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(58, 58, 58, 1);
+  margin-right: 5px;
 }
 
 .staring .star {
-    display: flex;
-    gap: 6px;
-    margin-right: 10px;
+  display: flex;
+  gap: 6px;
+  margin-right: 10px;
 }
 
 /* .staring .star img {
 } */
 
 .staring .line-review {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .line-review .vertical-line {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .line-review .review {
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 19.5px;
-    color: rgba(172, 172, 172, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: rgba(172, 172, 172, 1);
 }
 
 .more-products .add-product {
-    width: 242px;
-    align-content: center;
+  width: 242px;
+  align-content: center;
 }
 
 .add-product .add {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30.36px;
-    color: rgba(58, 58, 58, 1);
-    width: 176px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.36px;
+  color: rgba(58, 58, 58, 1);
+  width: 176px;
 }
 
 .add-product .choose-product {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-top: 14px;
-    padding: 10px 20px;
-    background-color: rgba(184, 142, 47, 1);
-    border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 14px;
+  padding: 10px 20px;
+  background-color: rgba(184, 142, 47, 1);
+  border-radius: 6px;
 }
 
 .choose-product .choose {
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 17.71px;
-    color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.71px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .choose-product .arrow {
-    max-width: 18px;
-    max-height: 8.5px;
+  max-width: 18px;
+  max-height: 8.5px;
 }
 
 .main-section-container .product-properties {
-    margin: 80px 0px;
-    width: 961px;
+  margin: 80px 0px;
+  width: 961px;
 }
 
-.product-properties .property-container {}
+.product-properties .product-container {
+  margin: 125px 0px;
+  max-width: 906px;
+}
 
 .property-container .property-title {
-    font-family: "Poppins", sans-serif;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 35.42px;
-    color: rgba(58, 58, 58, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.42px;
+  color: rgba(58, 58, 58, 1);
 }
 
 .property-container .property-description {
-    display: flex;
-    align-items: flex-end;
-    gap: 148px;
-    margin-top: 30px;
+  display: flex;
+  margin-top: 30px;
 }
 
 .property-container .general {
-    gap: 148px;
+  gap: 148px;
 }
 
 .property-container .product {
-    gap: 87px;
+  gap: 87px;
+}
+
+.product .property-last {
+  margin-left: 67px;
 }
 
 .property-container .dimension {
-    gap: 223px;
+  gap: 223px;
 }
 
 .property-container .warranty {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
 }
 
 .property-description .warranty {}
 
 .property-description .war {
-    display: flex;
-    align-items: flex-start;
-    gap: 80px;
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
 }
 
 .property p {
-    margin-bottom: 30px;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25.3px;
-    color: rgba(58, 58, 58, 1);
-}
-
-.product-properties .product {
-    margin: 125px 0px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.3px;
+  color: rgba(58, 58, 58, 1);
 }
 
 .product-properties .whole-warranty {
-    margin-top: 80px;
-    width: 874px;
+  margin-top: 80px;
+  width: 874px;
 }
 
 .property .warranty-explanation1 {
-    width: 220px;
+  width: 220px;
 }
 
 .property .warranty-explanation2 {
-    width: 241px;
+  width: 241px;
 }
 
 .property .warranty-explanation3 {
-    width: 241px;
+  width: 241px;
 }
 
 .whole-warranty .add-to-cart {
-    margin: 108px 42px 0px 42px;
-    display: flex;
-    justify-content: right;
-    gap: 108px;
+  margin: 108px 42px 0px 42px;
+  display: flex;
+  justify-content: right;
+  gap: 108px;
 }
 
 .add-to-cart .cart {
-    padding: 17px 48px;
-    background-color: rgba(184, 142, 47, 1);
-    border: 1px solid rgba(184, 142, 47, 1);
+  padding: 17px 48px;
+  background-color: rgba(184, 142, 47, 1);
+  border: 1px solid rgba(184, 142, 47, 1);
 }
 
 .cart .cart-text {
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    color: rgba(255, 255, 255, 1);
-}
-
-@media (max-width: 1185px) {
-    .sofa-whole .staring {
-        flex-direction: column;
-        align-items: start;
-        gap: 5px;
-    }
-
-    .staring .vertical-line {
-        display: none;
-    }
-}
-
-@media (max-width: 950px) {
-    /* Appears correctly in all phone screens. Is this media query necessary? */
-    /* Media query for the product properties div */
-}
-
-@media (max-width: 750px) {
-    .main-section-container .more-products {
-        gap: 40px;
-    }
-
-    .go-to .product-page {
-        font-size: 20px;
-        line-height: 26px;
-    }
-
-    .view-more .more {
-        font-size: 15px;
-        line-height: 20px;
-    }
-
-    .view-more .horizontal-line {
-        width: 85%;
-    }
-
-    .sofa-price .sofa {
-        font-size: 20px;
-        line-height: 25px;
-    }
-
-    .sofa-price .price {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .staring .out-of {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .staring .star {
-        gap: 2px;
-    }
-
-    /* .staring .star img {
-    } */
-    .line-review .review {
-        font-size: 12px;
-        line-height: 16px;
-    }
-
-    .add-product .add {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .add-product .choose-product {
-        width: 75%;
-        margin-top: 7px;
-    }
-
-    .choose-product .choose {
-        font-size: 12px;
-        line-height: 14px;
-        text-align: center;
-    }
-
-    .choose-product .arrow {
-        max-width: 12px;
-        max-height: 6px;
-    }
-}
-
-@media (max-width: 600px) {
-    /* Appears correctly in all phone screens. Is this media query necessary? */
-    /* Media query for the more products div */
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
 }
