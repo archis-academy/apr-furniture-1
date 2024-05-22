@@ -259,19 +259,17 @@
 
 @media (max-width: 1035px) {
 .property-container .property-description {
-   margin-top: 20px;
+    margin-top: 20px;
   }
   .property-container .general {
-    gap: 50px;
+    gap: 50px 150px;
   }
   .property-container .product {
-    gap: 50px;
+    gap: 50px 85px;
   }
 
   .property-container .dimension {
-    /* row-gap: 50px;
-    column-gap: 100px; */
-    gap: 50px 100px;
+    gap: 50px 150px;
   }
   .product-properties .product-container {
     margin: 60px 0px;
