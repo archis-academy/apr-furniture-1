@@ -11,26 +11,26 @@
     align-items: center;
 }
 
-.services-section-container .service {
+.services-section-container .service-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.service .service-image {
-    max-width: 60px;
+.service-wrapper .service-image {
+    width: 60px;
 }
 
 .service-image img {
     width: 100%;
 }
 
-.service .text {
+.service-wrapper .service-text {
     font-family: "Poppins", sans-serif;
 }
 
-.text .service-title {
+.service-text .service-title {
     font-size: 25px;
     font-weight: 600;
     line-height: 37.5px;
@@ -38,7 +38,7 @@
     color: rgba(58, 58, 58, 1);
 }
 
-.text .service-sub-title {
+.service-text .service-sub-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -46,30 +46,27 @@
 }
 
 @media (max-width: 1000px) {
-    .services-section-container .service {
+    .services-section-container .service.wrapper {
         gap: 0px;
     }
     .service-image img {
         width: 75%;
     }
-    .text .service-title {
+    .service-text .service-title {
         font-size: 18px;
         line-height: 25px; 
     }
-    .text .service-sub-title {
+    .service-text .service-sub-title {
         font-size: 14px;
         line-height: 20px;
     }
 }
 
 @media (max-width: 950px) {
-    .services-section-container .service {
+    .services-section-container .service.wrapper {
         flex-direction: column;
         gap: 5px;
     }
-    .service .text {
-        text-align: center;
-    } 
 }
 
 @media (max-width: 750px) {
@@ -78,14 +75,18 @@
         flex-direction: column;
         gap: 30px;
     }
+    .services-section-container .shipping,
+    .services-section-container .support {
+        margin-right: 60px;
+    }
     .service-image img {
         width: 100%;
     }
-    .text .service-title {
+    .service-text .service-title {
         font-size: 20px;
         line-height: 37.5px; 
     }
-    .text .service-sub-title {
+    .service-text .service-sub-title {
         font-size: 16px;
         line-height: 30px;
     }
