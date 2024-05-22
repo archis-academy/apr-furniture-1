@@ -1,13 +1,14 @@
 .page-product-comparison-services-section {
     background-color: rgba(252, 248, 243, 1);
-    margin: 80px auto;
 }
 
 .page-product-comparison-services-section .services-section-container {
+    max-width: 1350px;
+    margin: 80px auto;
+    padding: 100px 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0px;
 }
 
 .services-section-container .service {
