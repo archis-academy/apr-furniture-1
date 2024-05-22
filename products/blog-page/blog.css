@@ -211,8 +211,7 @@ body {
   display: grid;
   place-items: center;
 }
-.blog-top-side{
+.blog-top-side {
   display: flex;
   flex-direction: column;
-  
 }
