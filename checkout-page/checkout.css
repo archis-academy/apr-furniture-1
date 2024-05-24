@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", sans;
+}
+.checkout-page-text {
+  background-image: url("checkout-img/bcg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  row-gap: 8px;
+}
+.checkout-small-title {
+  display: flex;
+  gap: 15px;
+}
+.checkout-page-text h1 {
+  font-size: clamp(30px, 4vw, 48px);
+  color: #3a3a3a;
+  font-weight: 500;
+}
+.checkout-small-title .checkout-bold-text {
+  color: #3a3a3a;
+  font-size: clamp(12px, 4vw, 16px);
+  font-weight: 500;
+}
+.checkout-small-title p {
+  color: #3a3a3a;
+  font-size: clamp(12px, 4vw, 16px);
+  font-weight: 300;
+}
+
+.checkout-box-name-lastname-info input {
+  height: 75px;
+  border-radius: 15px;
+  border: 1px solid #acacac;
+  background: #fff;
+}
+
+.checkout-bot-text-box {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.company-name-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.checkout-label {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.checkout-pad-respon{
+    padding: 0 25px;
+}
+.checkout-country-input :placeholder-shown {
+  color: #acacac;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 25px;
+}
+.checkout-long-input {
+  height: 75px;
+  border-radius: 15px;
+  border: 1px solid #acacac;
+  background: #fff;
+}
+.checkout-box-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.checkout-box-name-lastname-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.adiontla-checkout:placeholder-shown {
+  color: #acacac;
+  font-size: 16px;
+  font-weight: 400;
+}
+.adiontla-checkout{
+    padding: 0 25px;
+}
+.adiontla-checkout input {
+  display: flex;
+  padding: 25px 29px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid #acacac;
+  background: #fff;
+}
+.checkout-text-title h4 {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.checkout-text-title p {
+  color: #acacac;
+  font-size: 16px;
+  font-weight: 400;
+}
+.checkout-text-big-title {
+  color: #3a3a3a;
+  font-weight: 500;
+  font-size: 24px;
+}
+.checkout-price {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 300;
+}
+.checkout-price-text h3 {
+  color: #b88e2f;
+  font-size: 24px;
+  font-weight: 700;
+}
+.checkout-top-text {
+  display: flex;
+  gap: 200px;
+  flex-wrap: wrap;
+  padding: 65px 20px;
+  justify-content: center;
+}
+.checkout-bot-text h3 {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.checkout-bot-text {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+.checkout-bot-text .full-color-round {
+  width: 14px;
+  height: 14px;
+  background-color: #3a3a3a;
+  border-radius: 50%;
+}
+.checkout-bot-text-col p {
+  color: #acacac;
+  font-size: 16px;
+  font-weight: 300;
+}
+.top-paragraph {
+  color: #acacac;
+  font-size: 16px;
+  font-weight: 500;
+}
+.third-checkout-round-text {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.empty-chackout {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #acacac;
+}
+.checkout-paragraph {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 300;
+}
+.checkout-paragraph b {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bot-button button {
+  width: 318px;
+  height: 64px;
+  color: #3a3a3a;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px solid #3a3a3a;
+  background: #fff;
+}
+.checkout-flex-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.checkout-product {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  max-width: 1350px;
+  flex-wrap: wrap;
+  padding: 150px 0px;
+  margin: auto;
+}
+.checkout-bot-text-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 35px;
+  padding: 0px 35px;
+}
+@media only screen and (max-width: 590px) {
+  .checkout-box-name-lastname-info {
+    width: 185px;
+  }
+}
