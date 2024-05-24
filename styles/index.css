@@ -171,3 +171,53 @@
   width: 100%;
 }
 /*hompage browse style end*/
+
+.hompage-hero img{
+  width: 100%;
+ 
+}
+
+.hompage-hero-small-box-text h5{
+  color: #3A3A3A;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  padding: 5px 0px;
+}
+.hompage-hero-small-box-text h1{
+  color: #B88E2F;
+font-size: 52px;
+font-weight: 700;
+line-height: 65px; 
+padding: 8px 0px;
+}
+.hompage-hero-small-box-text p{
+  color: #3A3A3A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px 0px; 
+}
+.hompage-hero-small-box{
+border-radius: 10px;
+background: #FCF8F3;
+}
+.hompage-hero-small-box-text{
+  padding: 55px;
+}
+.hompage-hero-small-box-text button{
+padding: 25px 72px;
+gap: 10px;
+background: #B88E2F;
+border: none;
+border-radius: 7px;
+margin: 25px 0px;
+
+}
+.hompage-hero-small-box-text button a{
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
