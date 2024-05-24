@@ -1,3 +1,4 @@
+/* Mürüvvet Header Section Start */
 .page-favorites-header-section {
     background-image: url("/images/background-img.png");
     background-repeat: no-repeat;
@@ -42,17 +43,9 @@
 .sub-title .to-comparison {
     font-weight: 300;
 }
+/* Mürüvvet Header Section End */
 
-@media (max-width: 535px) {
-    .header-section-container .header-title {
-        font-size: 36px;
-        line-height: 44px;
-        margin-bottom: 10px;
-    }
-}
-
-/* --------------------------------------------------------------- */
-
+/* Mürüvvet Main Section Start */
 .page-favorites-main-section {
     margin: 80px 20px;
 }
@@ -85,10 +78,6 @@
     flex-wrap: wrap;
 }
 
-/* .favorite-sofa-wrapper .sofa-set {
-    width: 105px;
-} */
-
 .favorite-sofa-wrapper .outdoor-sofa {
     background-color: rgba(217, 217, 217, 1);
     border-radius: 10px;
@@ -119,9 +108,9 @@
 .favorite-property .favorite-price {
     color: rgba(58, 58, 58, 1);
 }
+/* Mürüvvet Main Section End */
 
-/* --------------------------------------------------------------- */
-
+/* Mürüvvet Services Section Start */
 .page-favorites-services-section {
     background-color: rgba(252, 248, 243, 1);
 }
@@ -168,6 +157,7 @@
     line-height: 30px;
     color: rgba(172, 172, 172, 1);
 }
+/* Mürüvvet Services Section End */
 
 @media (max-width: 1000px) {
     .services-section-container .service.wrapper {
@@ -237,6 +227,14 @@
         flex-direction: column;
         align-items: center;
         gap: 15px;
+    }
+}
+
+@media (max-width: 535px) {
+    .header-section-container .header-title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 10px;
     }
 }
 
