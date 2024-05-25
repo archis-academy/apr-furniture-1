@@ -1,6 +1,6 @@
 /* Mürüvvet Header Section Start */
 .page-favorites-header-section {
-    background-image: url("/images/background-img.png");
+    background-image: url("../images/background-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,13 +120,12 @@
     margin: 80px auto;
     padding: 100px 0px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .services-section-container .service-wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -159,57 +158,40 @@
 }
 /* Mürüvvet Services Section End */
 
-@media (max-width: 1000px) {
-    .services-section-container .service.wrapper {
-        gap: 0px;
+@media (max-width: 1175px) {
+    .page-favorites-services-section .services-section-container {
+        gap: 50px;
+        padding-left: 20px;
     }
-    .service-image img {
-        width: 75%;
+}
+
+@media (max-width: 1015px) {
+    .services-section-container .support {
+        margin-right: 50px;
     }
+}
+
+@media (max-width: 635px) {
+    .page-favorites-services-section .services-section-container {
+        max-width: 375px;
+    }
+}
+
+@media (max-width: 350px) {
     .service-text .service-title {
         font-size: 18px;
         line-height: 25px;
     }
     .service-text .service-sub-title {
-        font-size: 14px;
-        line-height: 20px;
-    }
-}
-
-@media (max-width: 950px) {
-    .services-section-container .service.wrapper {
-        flex-direction: column;
-        gap: 5px;
-    }
-}
-
-@media (max-width: 750px) {
-    .page-favorites-services-section .services-section-container {
-        margin: 0px auto;
-        flex-direction: column;
-        gap: 30px;
-    }
-    .services-section-container .shipping,
-    .services-section-container .support {
-        margin-right: 60px;
-    }
-    .service-image img {
-        width: 100%;
-    }
-    .service-text .service-title {
-        font-size: 20px;
-        line-height: 37.5px;
-    }
-    .service-text .service-sub-title {
         font-size: 16px;
-        line-height: 30px;
+        line-height: 20px;
     }
 }
 
 @media (max-width: 575px) {
     .main-section-container .favorites-wrapper {
         gap: 50px;
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .favorite-sofa-wrapper .favorite-property {
         font-size: 20px;
@@ -226,7 +208,7 @@
     .favorite-sofa-wrapper .favorite-property {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
     }
 }
 
@@ -243,6 +225,6 @@
         font-size: 18px;
     }
     .favorite-sofa-wrapper .favorite-property {
-        gap: 5px;
+        gap: 2px;
     }
 }
