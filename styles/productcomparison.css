@@ -274,3 +274,42 @@
     margin: 60px 0px;
   }
 }
+
+@media (max-width: 950px) {
+  .property-container .warranty {
+    gap: 50px;
+  }
+  .property-description .war {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .warranty-wrapper .add-to-cart {
+    max-width: 250px;
+    margin: 30px 0px 0px 0px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 325px) {
+  .property-container .property-title {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  .property p {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 20px;
+    }
+  .warranty-wrapper .add-to-cart {
+      max-width: 150px;
+    }
+  .add-to-cart .cart {
+      padding: 12px 24px;
+    }
+  .cart .cart-text {
+    font-size: 15px;
+
+  }
+}
+
