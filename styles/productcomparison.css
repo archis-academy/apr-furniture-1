@@ -1,154 +1,483 @@
+/* Mürüvvet Product Comparison Header Section Start */
 .page-product-comparison-header-section {
-    background-image: url("/images/background-img.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 316px;
+  background-image: url("/images/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 316px;
 }
 
 .page-product-comparison-header-section .header-section-container {
-    /* margin: auto; */
-    text-align: center;
-    padding-top: 80px;
+  /* margin: auto; */
+  text-align: center;
+  padding-top: 80px;
 }
 
-.header-section-container .logo {}
-
 .header-section-container .title {
-    font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 72px;
-    color: rgba(58, 58, 58, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  color: rgba(58, 58, 58, 1);
 }
 
 .header-section-container .sub-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
-    margin-top: 5px;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(58, 58, 58, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(58, 58, 58, 1);
 }
 
 .sub-title .from-home {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .sub-title .dash {}
 
 .sub-title .to-comparison {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 @media (max-width: 535px) {
-    .header-section-container .title {
-        font-size: 36px;
-        line-height: 44px;
-        margin-bottom: 10px;
-    }
+  .header-section-container .title {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+}
+/* Mürüvvet Product Comparison Header Section End */
+
+/* Mürüvvet Product Comparison Main Section Start */
+.page-product-comparison-main-section {
+  padding: 0px 20px;
+  margin-top: 80px;
 }
 
-.page-product-comparison-services-section {
-    background-color: rgba(252, 248, 243, 1);
+.page-product-comparison-main-section .main-section-container {
+  max-width: 1220px;
+  margin: 0px auto;
+
 }
 
-.page-product-comparison-services-section .services-section-container {
-    max-width: 1350px;
-    margin: 80px auto;
-    padding: 100px 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.main-section-container .more-products {
+  display: flex;
+  justify-content: space-between;
+  gap: 65px;
+  flex-wrap: wrap;
 }
 
-.services-section-container .service-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.more-products .go-to {
+  width: 223px;
 }
 
-.service-wrapper .service-image {
-    width: 60px;
+.go-to .product-page {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.42px;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 20px;
 }
 
-.service-image img {
+.go-to .view-more {
+  max-width: 115px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-more .more {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(172, 172, 172, 1);
+}
+
+.view-more .horizontal-line {
+  width: 100%;
+}
+
+.more-products .sofa-wrapper {
+  width: 280px;
+}
+
+.sofa-wrapper .sofa-image {
+  width: 100%;
+  padding: 20px 22px 15px 19px;
+  background-color: rgba(252, 248, 243, 1);
+  border-radius: 10px;
+}
+
+.sofa-wrapper .sofa-price {
+  margin: 10px 0px;
+}
+
+.sofa-price .sofa {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.36px;
+  color: rgba(58, 58, 58, 1);
+  margin-bottom: 5px;
+}
+
+.sofa-price .price {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.sofa-wrapper .staring {
+  display: flex;
+  align-items: center;
+}
+
+.staring .out-of {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgba(58, 58, 58, 1);
+  margin-right: 5px;
+}
+
+.staring .star {
+  display: flex;
+  gap: 6px;
+  margin-right: 10px;
+}
+
+.staring .line-review {
+  display: flex;
+  align-items: center;
+}
+
+.line-review .vertical-line {
+  margin-right: 10px;
+}
+
+.line-review .review {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: rgba(172, 172, 172, 1);
+}
+
+.more-products .add-product {
+  width: 242px;
+  align-content: center;
+}
+
+.add-product .add {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.36px;
+  color: rgba(58, 58, 58, 1);
+  width: 176px;
+}
+
+.add-product .choose-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 14px;
+  padding: 10px 20px;
+  background-color: rgba(184, 142, 47, 1);
+  border-radius: 6px;
+}
+
+.choose-product .choose {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.71px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.choose-product .arrow {
+  max-width: 18px;
+  max-height: 8.5px;
+}
+
+.main-section-container .product-properties {
+  margin: 80px 0px;
+}
+
+.product-properties .product-container {
+  margin: 125px 0px;
+}
+
+.property-container .property-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.42px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.property-container .property-description {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.property-container .general {
+  gap: 148px;
+}
+
+.property-container .product {
+  gap: 87px;
+}
+
+.property-container .dimension {
+  gap: 223px;
+}
+
+.property-container .warranty {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.property-description .war {
+  display: flex;
+  gap: 80px;
+}
+
+.property p {
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.3px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.product-properties .warranty-wrapper {
+  margin-top: 80px;
+  max-width: 874px;
+}
+
+.property .warranty-explanation1 {
+  width: 220px;
+}
+
+.property .warranty-explanation2 {
+  width: 241px;
+}
+
+.property .warranty-explanation3 {
+  width: 241px;
+}
+
+.warranty-wrapper .add-to-cart {
+  margin: 108px 42px 0px 42px;
+  display: flex;
+  justify-content: right;
+  gap: 108px;
+}
+
+.add-to-cart .cart {
+  padding: 17px 48px;
+  background-color: rgba(184, 142, 47, 1);
+  border: 1px solid rgba(184, 142, 47, 1);
+}
+
+.cart .cart-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 768px) {
+  .more-products .sofa-wrapper {
     width: 100%;
+  }
+
+  .sofa-wrapper .sofa-image {
+    width: 100%;
+  }
 }
 
-.service-wrapper .service-text {
-    font-family: "Poppins", sans-serif;
-}
+@media (max-width: 1035px) {
+  .property-container .property-description {
+    margin-top: 20px;
+  }
 
-.service-text .service-title {
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 37.5px;
-    margin-bottom: 2px;
-    color: rgba(58, 58, 58, 1);
-}
+  .property-container .general {
+    gap: 50px 150px;
+  }
 
-.service-text .service-sub-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    color: rgba(172, 172, 172, 1);
-}
+  .property-container .product {
+    gap: 50px 85px;
+  }
 
-@media (max-width: 1000px) {
-    .services-section-container .service.wrapper {
-        gap: 0px;
-    }
+  .property-container .dimension {
+    gap: 50px 150px;
+  }
 
-    .service-image img {
-        width: 75%;
-    }
-
-    .service-text .service-title {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-    .service-text .service-sub-title {
-        font-size: 14px;
-        line-height: 20px;
-    }
+  .product-properties .product-container {
+    margin: 60px 0px;
+  }
 }
 
 @media (max-width: 950px) {
-    .services-section-container .service.wrapper {
-        flex-direction: column;
-        gap: 5px;
-    }
+  .property-container .warranty {
+    gap: 50px;
+  }
+
+  .property-description .war {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .warranty-wrapper .add-to-cart {
+    max-width: 250px;
+    margin: 30px 0px 0px 0px;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 325px) {
+  .property-container .property-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .property p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .warranty-wrapper .add-to-cart {
+    max-width: 150px;
+  }
+
+  .add-to-cart .cart {
+    padding: 12px 24px;
+  }
+
+  .cart .cart-text {
+    font-size: 15px;
+
+  }
+}
+/* Mürüvvet Product Comparison Header Section End */
+
+/* Mürüvvet Product Comparison Services Section Start */
+.page-product-comparison-services-section {
+  background-color: rgba(252, 248, 243, 1);
+}
+
+.page-product-comparison-services-section .services-section-container {
+  max-width: 1350px;
+  margin: 80px auto;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services-section-container .service-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-wrapper .service-image {
+  width: 60px;
+}
+
+.service-image img {
+  width: 100%;
+}
+
+.service-wrapper .service-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.service-text .service-title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 37.5px;
+  margin-bottom: 2px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.service-text .service-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgba(172, 172, 172, 1);
+}
+
+@media (max-width: 1000px) {
+  .services-section-container .service.wrapper {
+    gap: 0px;
+  }
+
+  .service-image img {
+    width: 75%;
+  }
+
+  .service-text .service-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .service-text .service-sub-title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .services-section-container .service.wrapper {
+    flex-direction: column;
+    gap: 5px;
+  }
 }
 
 @media (max-width: 750px) {
-    .page-product-comparison-services-section .services-section-container {
-        margin: 0px auto;
-        flex-direction: column;
-        gap: 30px;
-    }
+  .page-product-comparison-services-section .services-section-container {
+    margin: 0px auto;
+    flex-direction: column;
+    gap: 30px;
+  }
 
-    .services-section-container .shipping,
-    .services-section-container .support {
-        margin-right: 60px;
-    }
+  .services-section-container .shipping,
+  .services-section-container .support {
+    margin-right: 60px;
+  }
 
-    .service-image img {
-        width: 100%;
-    }
+  .service-image img {
+    width: 100%;
+  }
 
-    .service-text .service-title {
-        font-size: 20px;
-        line-height: 37.5px;
-    }
+  .service-text .service-title {
+    font-size: 20px;
+    line-height: 37.5px;
+  }
 
-    .service-text .service-sub-title {
-        font-size: 16px;
-        line-height: 30px;
-    }
+  .service-text .service-sub-title {
+    font-size: 16px;
+    line-height: 30px;
+  }
 }
+/* Mürüvvet Product Comparison Services Section End */
