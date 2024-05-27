@@ -1,0 +1,228 @@
+/* Mürüvvet Header Section Start */
+.page-favorites-header-section {
+    background-image: url("../images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+}
+
+.page-favorites-header-section .header-section-container {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.header-section-container .logo {
+    margin-bottom: 30px;
+}
+
+.header-section-container .header-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.header-section-container .header-subtitle-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.header-subtitle-wrapper .from-home {
+    font-weight: 500;
+}
+
+.sub-title .to-comparison {
+    font-weight: 300;
+}
+/* Mürüvvet Header Section End */
+
+/* Mürüvvet Main Section Start */
+.page-favorites-main-section {
+    margin: 80px 20px;
+}
+
+.page-favorites-main-section .main-section-container {
+    max-width: 1350px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.main-section-container .favorites-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.main-section-container .favorite-main {
+    margin-top: 0px;
+}
+
+.favorites-wrapper .favorite-sofa-wrapper {
+    width: 560px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.favorite-sofa-wrapper .outdoor-sofa {
+    background-color: rgba(217, 217, 217, 1);
+    border-radius: 10px;
+}
+
+.favorite-sofa-wrapper .sofa-set img {
+    width: 100%;
+}
+
+.favorite-sofa-wrapper .favorite-property {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.favorite-property .favorite-name {
+    color: rgba(172, 172, 172, 1);
+    width: 136px;
+    text-align: left;
+}
+
+.favorite-property .favorite-price {
+    color: rgba(58, 58, 58, 1);
+}
+/* Mürüvvet Main Section End */
+
+/* Mürüvvet Services Section Start */
+.page-favorites-services-section {
+    background-color: rgba(252, 248, 243, 1);
+}
+
+.page-favorites-services-section .services-section-container {
+    max-width: 1350px;
+    margin: 80px auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-section-container .service-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-wrapper .service-image {
+    width: 60px;
+}
+
+.service-image img {
+    width: 100%;
+}
+
+.service-wrapper .service-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.service-text .service-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    margin-bottom: 2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.service-text .service-sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(172, 172, 172, 1);
+}
+/* Mürüvvet Services Section End */
+
+@media (max-width: 1175px) {
+    .page-favorites-services-section .services-section-container {
+        gap: 50px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1015px) {
+    .services-section-container .support {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 635px) {
+    .page-favorites-services-section .services-section-container {
+        max-width: 375px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-section-container .favorites-wrapper {
+        gap: 50px;
+        margin-top: 60px;
+        padding: 0px 30px;
+    }
+    .favorite-sofa-wrapper .favorite-property {
+        font-size: 20px;
+    }
+    .favorite-property .favorite-name {
+        width: auto;
+    }
+    .favorite-sofa-wrapper .sofa-set {
+        width: 100%;
+    }
+    .favorite-sofa-wrapper .sofa-set img {
+        width: 100%;
+    }
+    .favorite-sofa-wrapper .favorite-property {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 535px) {
+    .header-section-container .header-title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .favorite-sofa-wrapper .favorite-property {
+        font-size: 18px;
+    }
+    .favorite-sofa-wrapper .favorite-property {
+        gap: 2px;
+    }
+    .service-text .service-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .service-text .service-sub-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
