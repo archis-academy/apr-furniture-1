@@ -220,12 +220,15 @@
 }
 
 @media (max-width: 585px) {
-    .footer-partial .partial-title {
-        margin-bottom: 20px;
+    .footer-section .footer-title {
+        text-align: left;
     }
     .footer-container .footer-wrapper {
         justify-content: flex-start;
         gap: 80px;
+    }
+    .footer-partial .partial-title {
+        margin-bottom: 20px;
     }
     .footer-content-wrapper .footer-content {
         margin-top: 10px;
