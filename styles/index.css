@@ -202,24 +202,23 @@ label:hover {
 }
 /* Mürüvvet Our Product Best Sellers End  */
 
-
 /* Mürüvvet Homepage Room Inspirations Start */
-
 .homepage-room-inspirations-section {
-  /* margin: 0px 20px; */
+  /* margin: 0px auto; */
 }
 
 .homepage-room-inspirations-section .room-inspirations-container {
+  margin: 0px auto;
   background-color: rgba(252, 248, 243, 1);
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
 }
 
 .room-inspirations-container .inspirations-text-wrapper {
   width: 422px;
-  margin: 223px 42px 296px 100px;
+  margin: 223px 42px 0px 100px;
 }
 
 .inspirations-text-wrapper .inspirations-title {
@@ -230,6 +229,7 @@ label:hover {
 }
 
 .inspirations-text-wrapper .inspirations-text {
+  margin-top: 4px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -237,19 +237,23 @@ label:hover {
 }
 
 .inspirations-text-wrapper .inspirations-button {
+  width: 176px;
   margin-top: 25px;
   padding: 12px 36px;
   background-color: rgba(184, 142, 47, 1);
+  border: none;
+}
+
+.inspirations-button .explore-more {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   color: rgba(255, 255, 255, 1);
-  border: none;
 }
 
 .room-inspirations-container .inspirations-inner-peace {
-  margin: 44px 0px;
   width: 404px;
+  margin: 44px -50px 0px 0px;
   position: relative;
 }
 
@@ -269,7 +273,7 @@ label:hover {
 
 .inspirations-inner-peace .inner-peace-arrow {
   position: absolute;
-  right: -22%;
+  right: -23%;
   bottom: 0%;
 }
 
@@ -299,30 +303,39 @@ label:hover {
 }
 
 .room-inspirations-container .inspirations-outer-peace {
-  margin: 44px 0px 140px 24px;
   width: 404px;
+  margin: 44px 44px 0px 0px;
   position: relative;
 }
 
 .outer-peace-images .outer-arrow {
   position: absolute;
   right: -1%;
-  bottom: 47%;
+  bottom: 54%;
 }
 
 .inspirations-outer-peace .outer-peace-images {
   display: flex;
   gap: 24px;
+  /* width: 100%; */
 }
 
 .inspirations-outer-peace .outer-peace-dots {
-  margin: 40px 0px 73px 0px;
+  margin-top: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
 
+@media (max-width: 500px) {
+  .inspirations-inner-peace .inner-peace-image {
+      width: 100%;
+    }
+    .inspirations-outer-peace .outer-peace-images {
+      width: 100%;
+    }
+}
 /* Mürüvvet Homepage Room Inspirations End */
 
 .hompage-furniro-gallery {
