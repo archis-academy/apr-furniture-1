@@ -1,6 +1,6 @@
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
-  margin-left: 50px; 
+  margin-left: 50px;
 }
 
 .homepage-our-products-section .op-left-menu-upper-container {
@@ -27,7 +27,7 @@
   border-bottom: 1px solid rgba(241, 241, 241, 1);
 }
 
-.lmu-accordion #living-room-dropdown, 
+.lmu-accordion #living-room-dropdown,
 .lmu-accordion #bedroom-dropdown,
 .lmu-accordion #dining-room-dropdown,
 .lmu-accordion #home-office-dropdown,
@@ -81,27 +81,27 @@ label:hover {
   accent-color: rgba(46, 193, 172, 1);
 }
 
-#living-room-dropdown:checked ~ .dropdown-menu {
+#living-room-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
-#bedroom-dropdown:checked ~ .dropdown-menu {
+#bedroom-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
-#dining-room-dropdown:checked ~ .dropdown-menu {
+#dining-room-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
-#home-office-dropdown:checked ~ .dropdown-menu {
+#home-office-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
-#outdoor-dropdown:checked ~ .dropdown-menu {
+#outdoor-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
-#kids-room-dropdown:checked ~ .dropdown-menu {
+#kids-room-dropdown:checked~.dropdown-menu {
   display: block;
 }
 
@@ -133,11 +133,7 @@ label:hover {
 .homepage-our-products-section .op-left-menu-lower-container {
   display: flex;
   max-width: 1350px;
-  /* Instead of using margin 200px, upper and lower need to be merged into one container */
-  /* and flex-direction: column justify-content:space-between properties should be applied to the container */
-  margin: 200px auto; 
-  /* Instead of using margin 200px, upper and lower need to be merged into one container */
-  /* and flex-direction: column justify-content:space-between properties should be applied to the container */
+  margin: 200px auto;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -147,9 +143,7 @@ label:hover {
 
 .op-left-menu-lower-container .lml-bottom-best-sellers {
   width: 290px;
-  /* Do I need to give 15px padding to the right and left */
   padding: 10px 0px;
-    /* Do I need to give 15px padding to the right and left */
 
 }
 
@@ -215,10 +209,12 @@ label:hover {
   width: 100%;
   margin: 70px 0px;
 }
+
 .hompage-furniro-gallery-image-text {
   max-width: 1950px;
   margin: auto;
 }
+
 .hompage-furniro-gallery-big-title h1 {
   color: #3a3a3a;
   text-align: center;
@@ -227,6 +223,7 @@ label:hover {
   font-weight: 700;
   margin: 55px 0px;
 }
+
 .furniro-gallery {
   display: flex;
 
@@ -234,6 +231,7 @@ label:hover {
   white-space: nowrap;
   position: relative;
 }
+
 .furniro-gallery-row {
   display: flex;
   justify-content: space-between;
@@ -242,12 +240,15 @@ label:hover {
   animation: 19s slide infinite linear;
   padding: 20px;
 }
+
 .furniro-gallery-row .logo-img img {
   width: 100%;
 }
+
 .furniro-gallery-row .logo-img {
   padding: 0 68.2px;
 }
+
 .furniro-gallery::before,
 .furniro-gallery::after {
   position: absolute;
@@ -259,18 +260,21 @@ label:hover {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
   z-index: 99;
 }
+
 .furniro-gallery-animation {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .furniro-gallery-animation2 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .furniro-gallery2 {
   display: flex;
   row-gap: 17px;
@@ -278,6 +282,7 @@ label:hover {
   white-space: nowrap;
   position: relative;
 }
+
 .furniro-gallery-row2 {
   display: flex;
   justify-content: space-between;
@@ -286,6 +291,7 @@ label:hover {
   animation: 22s slide infinite linear;
   padding: 20px;
 }
+
 .furniro-gallery2::before,
 .furniro-gallery2::after {
   position: absolute;
@@ -297,18 +303,22 @@ label:hover {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
   z-index: 99;
 }
+
 .furniro-gallery-row2 .logo-img img {
   width: 100%;
 }
+
 .furniro-gallery-row2 .logo-img {
   padding: 0 55.6px;
 }
+
 .furniro-gallery-animation3 {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .furniro-gallery3 {
   display: flex;
   row-gap: 17px;
@@ -316,6 +326,7 @@ label:hover {
   white-space: nowrap;
   position: relative;
 }
+
 .furniro-gallery-row3 {
   display: flex;
   justify-content: space-between;
@@ -324,6 +335,7 @@ label:hover {
   animation: 28s slide infinite linear;
   padding: 20px;
 }
+
 .furniro-gallery3::before,
 .furniro-gallery3::after {
   position: absolute;
@@ -335,9 +347,11 @@ label:hover {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
   z-index: 99;
 }
+
 .furniro-gallery-row3 .logo-img img {
   width: 100%;
 }
+
 .furniro-gallery-row3 .logo-img {
   padding: 0 55.6px;
 }
@@ -346,8 +360,8 @@ label:hover {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
 }
-
