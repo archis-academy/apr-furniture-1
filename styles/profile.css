@@ -108,6 +108,11 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 350px) {
+    .profile-wrapper .profile-image {
+        width: 100%;
+    }
+}
 /* Mürüvvet Profile Main Section Start */
 
 /* Mürüvvet Product Comparison Services Section Start */
