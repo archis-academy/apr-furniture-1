@@ -1,0 +1,214 @@
+/* Mürüvvet Profile Header Section Start */
+.page-profile-header-section {
+    background-image: url("../images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+}
+
+.page-profile-header-section .profile-header-container {
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Poppins", sans-serif;
+}
+
+.profile-header-container .profile-title {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.profile-header-container .profile-subtitle {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.profile-subtitle .from-home {
+    font-weight: 500;
+}
+
+.profile-subtitle .to-profile {
+    font-weight: 300;
+}
+
+@media (max-width: 535px) {
+    .profile-header-container .profile-title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+}
+/* Mürüvvet Profile Header Section End */
+.page-profile-main-section {
+    margin: 0px 20px;
+}
+
+.page-profile-main-section .profile-main-container {
+    width: 600px;
+    margin: 80px auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.profile-wrapper .profile-change {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #ACACAC;
+}
+
+.profile-main-container .profile-inputs {
+    margin-top: 30px;
+}
+
+.profile-inputs .profile-input-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #3A3A3A;
+}
+
+.profile-inputs .profile-input {
+    width: 100%;
+    padding: 18px 20px 18px 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ACACAC;
+}
+
+.profile-main-container .profile-save {
+    width: 218px;
+    margin: 30px auto 0px auto;
+    padding: 14px 89px 14px 89px;
+    border-radius: 5px;
+    background-color: #B88E2F;
+}
+
+.profile-save .button-save {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Mürüvvet Profile Main Section Start */
+
+/* Mürüvvet Product Comparison Services Section Start */
+.page-product-comparison-services-section {
+    background-color: rgba(252, 248, 243, 1);
+}
+
+.page-product-comparison-services-section .services-section-container {
+    max-width: 1350px;
+    margin: 80px auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-section-container .service-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-wrapper .service-image {
+    width: 60px;
+}
+
+.service-image img {
+    width: 100%;
+}
+
+.service-wrapper .service-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.service-text .service-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    margin-bottom: 2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.service-text .service-sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(172, 172, 172, 1);
+}
+
+@media (max-width: 1000px) {
+    .services-section-container .service.wrapper {
+        gap: 0px;
+    }
+
+    .service-image img {
+        width: 75%;
+    }
+
+    .service-text .service-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .service-text .service-sub-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .services-section-container .service.wrapper {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 750px) {
+    .page-product-comparison-services-section .services-section-container {
+        margin: 0px auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .services-section-container .shipping,
+    .services-section-container .support {
+        margin-right: 60px;
+    }
+
+    .service-image img {
+        width: 100%;
+    }
+
+    .service-text .service-title {
+        font-size: 20px;
+        line-height: 37.5px;
+    }
+
+    .service-text .service-sub-title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+/* Mürüvvet Product Comparison Services Section End */
