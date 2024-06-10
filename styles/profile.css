@@ -52,7 +52,7 @@
 }
 
 .page-profile-main-section .profile-main-container {
-    width: 600px;
+    max-width: 600px;
     margin: 80px auto;
     text-align: center;
     font-family: "Poppins", sans-serif;
