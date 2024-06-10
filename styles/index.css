@@ -122,6 +122,7 @@ label:hover {
   max-width: 8.16px;
   max-height: 8.16px;
 }
+
 /* Mürüvvet Our Product Categories End  */
 
 
@@ -205,6 +206,112 @@ label:hover {
 
 /* Mürüvvet Our Product Best Sellers End  */
 
+/* Mürüvvet Shop Section Start  */
+.homepage-shop-section {
+  margin: 0px 50px;
+}
+
+.homepage-shop-section .shop-container {
+  max-width: 900px;
+  font-family: "Poppins", sans-serif;
+}
+
+.shop-container .shop-title {
+  margin: 0px auto 32px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.shop-container .shop-products {
+  display: flex;
+  gap: 20px;
+}
+
+.shop-products .shop-product-wrapper {
+  width: 210px;
+  padding: 10px;
+  border: 1px solid rgba(241, 241, 241, 1);
+  border-radius: 10px;
+}
+
+.shop-product-wrapper .product-image {
+  width: 190px;
+  position: relative;
+}
+
+.product-image .shop-image {
+  width: 100%;
+}
+
+.product-image .product-tag {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.shop-product-wrapper .product-description {
+  margin-top: 15px;
+}
+
+.product-description .product-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.product-description .product-model {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(172, 172, 172, 1);
+}
+
+.product-description .product-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.product-description .product-prices {
+  display: flex;
+  gap: 10px;
+}
+
+.product-prices .normal-price {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  color: rgba(58, 58, 58, 1);
+}
+
+.product-prices .discounted-price {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.4px;
+  color: rgba(172, 172, 172, 1);
+  text-decoration: line-through;
+}
+
+.shop-container .product-show-more {
+  margin: 32px auto 0px auto;
+  text-align: center;
+  padding: 12px 74px 12px 82px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(184, 142, 47, 1);
+  border-radius: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(184, 142, 47, 1);
+}
+
+/* Mürüvvet Shop Section End  */
 .hompage-furniro-gallery {
   width: 100%;
   margin: 70px 0px;
