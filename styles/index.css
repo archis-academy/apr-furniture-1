@@ -1,3 +1,75 @@
+.homepage-browse-range-section {
+  margin: 0px 20px; 
+}
+
+.homepage-browse-range-section .browse-range-container {
+  margin: 50px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.browse-range-container .browse-title-wrapper {
+  margin-bottom: 63px;
+}
+
+.browse-title-wrapper .browse-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #3A3A3A;
+}
+
+.browse-title-wrapper .browse-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #ACACAC;
+}
+
+.browse-range-container .browse-image-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.browse-image .room-image  {
+  width: 100%;
+}
+
+.browse-image .room-title {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #3A3A3A;
+}
+
+@media (max-width: 450px) {
+  .browse-title-wrapper .browse-title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .browse-title-wrapper .browse-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .browse-image .room-image  {
+    width: 100%;
+  }
+  .browse-image .room-title {
+    margin: 15px 0px 10px 0px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+
+
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
   margin-left: 50px; 
