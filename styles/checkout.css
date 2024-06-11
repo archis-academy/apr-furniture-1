@@ -1,0 +1,389 @@
+/* Mürüvvet Checkout Header Section Start */
+.page-checkout-header-section {
+    background-image: url("../images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 316px;
+}
+
+.page-checkout-header-section .checkout-container {
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 80px;
+}
+
+.checkout-container .checkout-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.checkout-container .checkout-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.checkout-subtitle .from-home {
+    font-weight: 500;
+}
+
+.checkout-subtitle .to-checkout {
+    font-weight: 300;
+}
+
+@media (max-width: 535px) {
+    .checkout-container .checkout-title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 10px;
+    }
+}
+/* Mürüvvet Checkout Header Section End */
+
+/* Mürüvvet Checkout Main Section Start */
+.page-checkout-main-section {
+    margin: 0px 20px;
+}
+
+.page-checkout-main-section .main-checkout-container {
+    margin: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    color: #3A3A3A;
+    
+}
+
+.main-checkout-container .checkout-billing {
+    width: 454px;
+    margin: 98px 0px 123px 174px;
+}
+
+.checkout-billing .billing-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.checkout-billing .billing-input-wrapper {
+    margin-top: 44px;
+}
+
+.checkout-billing .billing-person {
+    max-width: 454px;
+    display: flex;
+    gap: 31px;
+}
+
+.billing-person .billing-name {
+    max-width: 211px;
+}
+
+.billing-name .name-input {
+    width: 100%;
+}
+
+.billing-input-wrapper .input-name-wrapper {
+    position: relative;
+}
+
+.input-name-wrapper .input-arrow {
+    position: absolute;
+    bottom: 23%;
+    right: 5%;
+}
+.input-name-wrapper .input-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.input-name-wrapper .input-data {
+    width: 100%;
+    height: 75px;
+    margin-top: 15px;
+    border: 1px solid #ACACAC;
+    border-radius: 15px;
+}
+
+.checkout-billing .billing-additional{
+    max-width: 237px;    
+}
+
+.billing-additional .input-data {
+    width: 100%;
+    height: 75px;
+    border: 1px solid #ACACAC;
+    border-radius: 15px;
+}
+
+::placeholder {
+    padding: 25px 352px 26px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-checkout-container .checkout-payment {
+    max-width: 529px;
+    margin: 150px 139px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.checkout-payment .payment-price {
+    display: flex;
+    justify-content: space-between;
+    gap: 212px;
+    margin-right: 54px;
+}
+
+.payment-price .product-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.product-wrapper .title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.product-wrapper .product-name-wrapper {
+    display: flex;
+    gap: 11px;
+}
+
+.product-name-wrapper .product-name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ACACAC;
+}
+
+.product-wrapper .product-total {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.payment-price .price-wrapper {
+    align-items: flex-end;
+}
+
+.price-wrapper .price-product {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.price-wrapper .price-total {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #B88E2F;
+}
+
+.payment-transfer .transfer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 11px;
+    height: 14px;
+}
+
+.transfer-wrapper .transfer-circle {
+    width: 100%;
+}
+
+.option .transfer-circle {
+    width: 14px;
+    height: 14px;
+}
+
+.transfer-wrapper .transfer-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.payment-transfer .transfer-information {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
+    color: #ACACAC;
+}
+
+.payment-transfer .transfer-option {
+    margin-top: 31px;
+    display: flex;
+    gap: 31px;
+}
+
+.transfer-option .option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 14px;
+}
+
+.transfer-option .transfer-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ACACAC;
+}
+
+.checkout-payment .payment-privacy {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.checkout-payment .payment-privacy a {
+    font-weight: bold;
+}
+
+.checkout-payment .payment-order {
+    width: 318px;
+}
+.payment-order .place-order {
+    width: 100%;
+    padding: 17px 102px;
+    border: 1px solid #3A3A3A;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* @media (max-width: 768px) {
+    .page-checkout-main-section .main-checkout-container {
+    }
+} */
+
+/* Mürüvvet Checkout Main Section End */
+
+/* Mürüvvet Services Section Start */
+.page-checkout-services-section {
+    background-color: rgba(252, 248, 243, 1);
+}
+
+.page-product-comparison-services-section {
+    background-color: rgba(252, 248, 243, 1);
+}
+
+.page-product-comparison-services-section .services-section-container {
+    max-width: 1350px;
+    margin: 80px auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.services-section-container .service-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-wrapper .service-image {
+    width: 60px;
+}
+
+.service-image img {
+    width: 100%;
+}
+
+.service-wrapper .service-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.service-text .service-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    margin-bottom: 2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.service-text .service-sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(172, 172, 172, 1);
+}
+
+@media (max-width: 1000px) {
+    .services-section-container .service.wrapper {
+        gap: 0px;
+    }
+
+    .service-image img {
+        width: 75%;
+    }
+
+    .service-text .service-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .service-text .service-sub-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    .services-section-container .service.wrapper {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 750px) {
+    .page-product-comparison-services-section .services-section-container {
+        margin: 0px auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .services-section-container .shipping,
+    .services-section-container .support {
+        margin-right: 60px;
+    }
+
+    .service-image img {
+        width: 100%;
+    }
+
+    .service-text .service-title {
+        font-size: 20px;
+        line-height: 37.5px;
+    }
+
+    .service-text .service-sub-title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+/* Mürüvvet Services Section End */
