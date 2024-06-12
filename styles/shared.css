@@ -161,14 +161,13 @@ a {
   font-family: "Poppins", sans-serif;
   color: rgba(255, 255, 255, 1);
   padding: 0px 20px;
-  /* position: relative; */
+  margin-top: 80px;
 }
 
 .footer-section .footer-container {
   padding: 40px 100px;
   margin: 0px auto;
   text-align: center;
-  /* position: absolute; */
 }
 
 .footer-container .footer-title {
