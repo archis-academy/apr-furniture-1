@@ -1,368 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Furniture App</title>
-    <link rel="stylesheet" href="styles/shared.css" />
-    <link rel="stylesheet" href="styles/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="furniro-navbar">
-      <div class="furniro">
-        <div class="furniro-logo">
-          <img src="images/Meubel House_Logos-05.png" alt="" />
-          <p>Furniro.</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furniture App</title>
+  <link rel="stylesheet" href="styles/shared.css" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="furniro-navbar">
+    <div class="furniro">
+      <div class="furniro-logo">
+        <img src="images/Meubel House_Logos-05.png" alt="" />
+        <p>Furniro.</p>
+      </div>
+      <nav class="furniro-li">
+        <ul>
+          <li class="home"><a href="#"></a>Home</li>
+          <li><a href="#"></a>Shop</li>
+          <li class="about-li">
+            <a href="#"></a>About
+            <div class="opened-section">
+              <ul>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Vision</a></li>
+                <li><a href="#">Our team</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#"></a>Contact</li>
+        </ul>
+      </nav>
+      <div class="furniro-navbar-logo">
+        <img src="images/mdi_account-alert-outline.png" alt="" />
+        <img src="images/akar-icons_search.png" alt="" />
+        <img src="images/akar-icons_heart.png" alt="" />
+        <img src="images/ant-design_shopping-cart-outlined.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Mürüvvet Hero Section Start -->
+  <div class="homepage-hero-section">
+    <div class="hero-container">
+      <div class="hero-text-wrapper">
+        <h6 class="hero-subtitle">New Arrival</h6>
+        <h1 class="hero-title">Discover Our New Collection</h1>
+        <p class="hero-explanation">Explore Furniro's latest collection, where elegance meets innovation.
+          Elevate your space with our brand-new, stylish furniture pieces.
+          Redefine your home with the latest trends and timeless classics. Shop now!
+        </p>
+        <a class="hero-button" href="#" target="_blank">BUY NOW</a>
+      </div>
+    </div>
+  </div>
+  <!-- Mürüvvet Hero Section End -->
+
+  <!-- Mürüvvet Browse Range Start -->
+  <div class="homepage-browse-range-section">
+    <div class="browse-range-container">
+      <div class="browse-title-wrapper">
+        <h2 class="browse-title">Browse The Range</h2>
+        <p class="browse-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="browse-image-wrapper">
+        <div class="browse-image">
+          <img class="room-image" src="images/browse-dining-room.png" alt="Dining Room">
+          <p class="room-title">Dining</p>
         </div>
-        <nav class="furniro-li">
-          <ul>
-            <li class="home"><a href="#"></a>Home</li>
-            <li><a href="#"></a>Shop</li>
-            <li class="about-li">
-              <a href="#"></a>About
-              <div class="opened-section">
-                <ul>
-                  <li><a href="#">Our Mission</a></li>
-                  <li><a href="#">Our Vision</a></li>
-                  <li><a href="#">Our team</a></li>
-                </ul>
-              </div>
-            </li>
-            <li><a href="#"></a>Contact</li>
-          </ul>
-        </nav>
-        <div class="furniro-navbar-logo">
-          <img src="images/mdi_account-alert-outline.png" alt="" />
-          <img src="images/akar-icons_search.png" alt="" />
-          <img src="images/akar-icons_heart.png" alt="" />
-          <img src="images/ant-design_shopping-cart-outlined.png" alt="" />
+        <div class="browse-image">
+          <img class="room-image" src="images/browse-living-room.png" alt="Living Room">
+          <p class="room-title">Living</p>
+        </div>
+        <div class="browse-image">
+          <img class="room-image" src="images/browse-bed-room.png" alt="Bed Room">
+          <p class="room-title">Bedroom</p>
         </div>
       </div>
     </div>
+  </div>
+  <!-- Mürüvvet Browse Range End -->
 
-    <!-- Mürüvvet Our Product Categories Start -->
-    <div class="homepage-our-products-section">
-      <div class="op-left-menu-upper-container">
-          <div class="lmu-accordion">
-              <div>
-                  <div class="a-room"> 
-                      <p class="text">Living Room</p>
-                      <label for="living-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="living-room-dropdown">
-
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Sofas and Sectionals</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Desks and Chairs</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>TV Units</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>
-              </div>
-
-              <div>
-                  <div class="a-room">
-                      <p class="text">Bedroom</p>
-                      <label for="bedroom-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="bedroom-dropdown">
-  
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Bedroom Sets</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Wardrobs</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Nigthstands</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-
-                      <div class="menu-element-item">
-                          <p>Dressers</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>    
-              </div>
-              
-              <div>
-                  <div class="a-room">
-                      <p class="text">Dining Room</p>
-                      <label for="dining-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="dining-room-dropdown">
-  
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Dining Tables and Chairs</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Sideboards</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Display Cabinets</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-
-                      <div class="menu-element-item">
-                          <p>Coffee Tables</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>
-              </div>
-
-              <div>
-                  <div class="a-room">
-                      <p class="text">Home Office</p>
-                      <label for="home-office-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="home-office-dropdown">
-  
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Desks and Chairs</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Bookcases</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Filling Cabinets</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>
-              </div>
-
-              <div>
-                  <div class="a-room">
-                      <p class="text">Outdoor</p>
-                      <label for="outdoor-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="outdoor-dropdown">
-      
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Pergolas</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Parasols</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>BBQs</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>
-              </div>
-              
-              <div>
-                  <div class="a-room a-kids-room">
-                      <p class="text">Kids Room</p>
-                      <label for="kids-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg" alt="Plus Image"></label>
-                  </div>
-                  <input type="checkbox" id="kids-room-dropdown">
-      
-                  <div class="dropdown-menu">
-                      <div class="menu-element-item">
-                          <p>Beds</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  
-                      <div class="menu-element-item">
-                          <p>Toy Storages</p>
-                          <input type="checkbox" id="dropdown-input">
-                      </div>
-                  </div>
-              </div>
+  <!-- Mürüvvet Our Product Categories Start -->
+  <div class="homepage-our-products-section">
+    <div class="op-left-menu-upper-container">
+      <div class="lmu-accordion">
+        <div>
+          <div class="a-room">
+            <p class="text">Living Room</p>
+            <label for="living-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
           </div>
-      </div>
-    </div>
-    <!-- Mürüvvet Our Product Categories End -->
+          <input type="checkbox" id="living-room-dropdown">
 
-    <!-- Mürüvvet Our Product Best Sellers Start -->
-      <div class="homepage-our-products-section">
-        <div class="op-left-menu-lower-container">
-          <div class="lml-bottom-best-sellers">
-            <div class="best-sellers-title">
-              <h3>BEST SELLERS</h3>
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Sofas and Sectionals</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
-            <div class="best-sellers-product-wrapper">
-              <div class="product-image">
-                <img src="images/coffee-table.png" alt="Product 1">
-              </div>
-              <div class="product-description">
-                <p class="product-name">Syltherine</p>
-                <div class="product-staring">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-not-filled.png" alt="Not-Filled Star">
-                </div>
-                <div class="product-price-wrapper">
-                  <p class="product-price1">$ 150</p>
-                  <p class="product-price2">$ 120</p>
-                </div>
-              </div>
+
+            <div class="menu-element-item">
+              <p>Desks and Chairs</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
-            <div class="best-sellers-product-wrapper">
-              <div class="product-image">
-                <img src="images/vase.png" alt="Product 2">
-              </div>
-              <div class="product-description">
-                <p class="product-name">Syltherine</p>
-                <div class="product-staring">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-not-filled.png" alt="Not-Filled Star">
-                </div>
-                <div class="product-price-wrapper">
-                  <p class="product-price1">$ 150</p>
-                  <p class="product-price2">$ 120</p>
-                </div>
-              </div>
-            </div>
-            <div class="best-sellers-product-wrapper">
-              <div class="product-image">
-                <img src="images/ceiling-fan.png" alt="Product 3">
-              </div>
-              <div class="product-description">
-                <p class="product-name">Syltherine</p>
-                <div class="product-staring">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-not-filled.png" alt="Not-Filled Star">
-                </div>
-                <div class="product-price-wrapper">
-                  <p class="product-price1">$ 150</p>
-                  <p class="product-price2">$ 120</p>
-                </div>
-              </div>
-            </div>
-            <div class="best-sellers-product-wrapper">
-              <div class="product-image">
-                <img src="images/bedlinen.png" alt="Product 4">
-              </div>
-              <div class="product-description">
-                <p class="product-name">Syltherine</p>
-                <div class="product-staring">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-filled.png" alt="Filled Star">
-                  <img src="images/star-not-filled.png" alt="Not-Filled Star">
-                </div>
-                <div class="product-price-wrapper">
-                  <p class="product-price1">$ 150</p>
-                  <p class="product-price2">$ 120</p>
-                </div>
-              </div>
+
+            <div class="menu-element-item">
+              <p>TV Units</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
           </div>
         </div>
-      </div>
-    <!-- Mürüvvet Our Product Best Sellers End -->
 
+        <div>
+          <div class="a-room">
+            <p class="text">Bedroom</p>
+            <label for="bedroom-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
+          </div>
+          <input type="checkbox" id="bedroom-dropdown">
 
-    <div class="hompage-furniro-gallery">
-      <div class="hompage-furniro-gallery-image-text">
-        <div class="hompage-furniro-gallery-big-title">
-          <h1>#FurniroFurniture</h1>
-        </div>
-        <div class="furniro-gallery-animation">
-          <div class="furniro-gallery">
-            <div class="furniro-gallery-row">
-              <div class="row1">
-                <img class="logo-img" src="images/Rectangle 38.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 40.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 43.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 45.png" alt="" />
-              </div>
-              <div class="row1">
-                <img class="logo-img" src="images/Rectangle 38.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 40.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 43.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 45.png" alt="" />
-              </div>
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Bedroom Sets</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Wardrobs</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Nigthstands</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Dressers</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
           </div>
         </div>
-        <div class="furniro-gallery-animation2">
-          <div class="furniro-gallery2">
-            <div class="furniro-gallery-row2">
-              <div class="row2">
-                <img class="logo-img" src="images/Rectangle 37.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 39.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 41.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 44.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 36.png" alt="" />
-              </div>
-              <div class="row2">
-                <img class="logo-img" src="images/Rectangle 37.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 39.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 41.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 44.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 36.png" alt="" />
-              </div>
+
+        <div>
+          <div class="a-room">
+            <p class="text">Dining Room</p>
+            <label for="dining-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
+          </div>
+          <input type="checkbox" id="dining-room-dropdown">
+
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Dining Tables and Chairs</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Sideboards</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Display Cabinets</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Coffee Tables</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
           </div>
         </div>
-        <div class="furniro-gallery-animation3">
-          <div class="furniro-gallery3">
-            <div class="furniro-gallery-row3">
-              <div class="row3">
-                <img class="logo-img" src="images/Rectangle 37.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 39.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 41.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 44.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 36.png" alt="" />
-              </div>
-              <div class="row3">
-                <img class="logo-img" src="images/Rectangle 37.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 39.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 41.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 44.png" alt="" />
-                <img class="logo-img" src="images/Rectangle 36.png" alt="" />
-              </div>
+
+        <div>
+          <div class="a-room">
+            <p class="text">Home Office</p>
+            <label for="home-office-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
+          </div>
+          <input type="checkbox" id="home-office-dropdown">
+
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Desks and Chairs</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Bookcases</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Filling Cabinets</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="a-room">
+            <p class="text">Outdoor</p>
+            <label for="outdoor-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
+          </div>
+          <input type="checkbox" id="outdoor-dropdown">
+
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Pergolas</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Parasols</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>BBQs</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="a-room a-kids-room">
+            <p class="text">Kids Room</p>
+            <label for="kids-room-dropdown"><img class="plus-image" src="images/homepage-leftmenu-plus-img.jpg"
+                alt="Plus Image"></label>
+          </div>
+          <input type="checkbox" id="kids-room-dropdown">
+
+          <div class="dropdown-menu">
+            <div class="menu-element-item">
+              <p>Beds</p>
+              <input type="checkbox" id="dropdown-input">
+            </div>
+
+            <div class="menu-element-item">
+              <p>Toy Storages</p>
+              <input type="checkbox" id="dropdown-input">
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <!-- Mürüvvet Footer Start -->
+  </div>
+  <!-- Mürüvvet Our Product Categories End -->
+
+  <!-- Mürüvvet Our Product Best Sellers Start -->
+  <div class="homepage-our-products-section">
+    <div class="op-left-menu-lower-container">
+      <div class="lml-bottom-best-sellers">
+        <div class="best-sellers-title">
+          <h3>BEST SELLERS</h3>
+        </div>
+        <div class="best-sellers-product-wrapper">
+          <div class="product-image">
+            <img src="images/coffee-table.png" alt="Product 1">
+          </div>
+          <div class="product-description">
+            <p class="product-name">Syltherine</p>
+            <div class="product-staring">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-not-filled.png" alt="Not-Filled Star">
+            </div>
+            <div class="product-price-wrapper">
+              <p class="product-price1">$ 150</p>
+              <p class="product-price2">$ 120</p>
+            </div>
+          </div>
+        </div>
+        <div class="best-sellers-product-wrapper">
+          <div class="product-image">
+            <img src="images/vase.png" alt="Product 2">
+          </div>
+          <div class="product-description">
+            <p class="product-name">Syltherine</p>
+            <div class="product-staring">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-not-filled.png" alt="Not-Filled Star">
+            </div>
+            <div class="product-price-wrapper">
+              <p class="product-price1">$ 150</p>
+              <p class="product-price2">$ 120</p>
+            </div>
+          </div>
+        </div>
+        <div class="best-sellers-product-wrapper">
+          <div class="product-image">
+            <img src="images/ceiling-fan.png" alt="Product 3">
+          </div>
+          <div class="product-description">
+            <p class="product-name">Syltherine</p>
+            <div class="product-staring">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-not-filled.png" alt="Not-Filled Star">
+            </div>
+            <div class="product-price-wrapper">
+              <p class="product-price1">$ 150</p>
+              <p class="product-price2">$ 120</p>
+            </div>
+          </div>
+        </div>
+        <div class="best-sellers-product-wrapper">
+          <div class="product-image">
+            <img src="images/bedlinen.png" alt="Product 4">
+          </div>
+          <div class="product-description">
+            <p class="product-name">Syltherine</p>
+            <div class="product-staring">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-filled.png" alt="Filled Star">
+              <img src="images/star-not-filled.png" alt="Not-Filled Star">
+            </div>
+            <div class="product-price-wrapper">
+              <p class="product-price1">$ 150</p>
+              <p class="product-price2">$ 120</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mürüvvet Our Product Best Sellers End -->
+
+
+  <div class="hompage-furniro-gallery">
+    <div class="hompage-furniro-gallery-image-text">
+      <div class="hompage-furniro-gallery-big-title">
+        <h1>#FurniroFurniture</h1>
+      </div>
+      <div class="furniro-gallery-animation">
+        <div class="furniro-gallery">
+          <div class="furniro-gallery-row">
+            <div class="row1">
+              <img class="logo-img" src="images/Rectangle 38.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 40.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 43.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 45.png" alt="" />
+            </div>
+            <div class="row1">
+              <img class="logo-img" src="images/Rectangle 38.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 40.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 43.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 45.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="furniro-gallery-animation2">
+        <div class="furniro-gallery2">
+          <div class="furniro-gallery-row2">
+            <div class="row2">
+              <img class="logo-img" src="images/Rectangle 37.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 39.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 41.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 44.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 36.png" alt="" />
+            </div>
+            <div class="row2">
+              <img class="logo-img" src="images/Rectangle 37.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 39.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 41.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 44.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 36.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="furniro-gallery-animation3">
+        <div class="furniro-gallery3">
+          <div class="furniro-gallery-row3">
+            <div class="row3">
+              <img class="logo-img" src="images/Rectangle 37.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 39.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 41.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 44.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 36.png" alt="" />
+            </div>
+            <div class="row3">
+              <img class="logo-img" src="images/Rectangle 37.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 39.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 41.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 44.png" alt="" />
+              <img class="logo-img" src="images/Rectangle 36.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Mürüvvet Footer Start -->
     <div class="footer-section">
       <div class="footer-container">
           <h2 class="footer-title">Furniro.</h2>
@@ -421,5 +470,6 @@
       </div>
   </div>
   <!-- Mürüvvet Footer End -->
-  </body>
+</body>
+
 </html>
