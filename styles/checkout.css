@@ -145,7 +145,6 @@
 .checkout-payment .payment-price {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-right: 54px;
 }
 
@@ -280,8 +279,64 @@
     }
 }
 
-/* @media (max-width: 400px) {
-} */
+@media (max-width: 400px) {
+    .page-checkout-main-section .main-checkout-container {
+        gap: 80px;
+    }
+    .main-checkout-container .checkout-payment {
+        max-width: 275px;
+        gap: 50px;
+    }
+    .product-wrapper .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .product-wrapper .product-name-wrapper {
+        gap: 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .product-wrapper .product-total {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .price-wrapper .price-product {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .price-wrapper .price-total {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .transfer-wrapper .transfer-circle {
+        width: 100%;
+    }
+    .transfer-wrapper .transfer-title {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .payment-transfer .transfer-information {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .transfer-option .transfer-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .checkout-payment .payment-privacy {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .checkout-payment .payment-order {
+        width: 275px;
+    }
+    .payment-order .place-order {
+        padding: 12px 80px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
 
 /* Mürüvvet Checkout Main Section End */
 
