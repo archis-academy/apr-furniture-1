@@ -56,7 +56,7 @@
 }
 
 .page-checkout-main-section .main-checkout-container {
-    margin-top: 98px;
+    margin: 98px auto 0px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
