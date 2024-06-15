@@ -136,6 +136,7 @@
 }
 
 .main-checkout-container .checkout-payment {
+    margin-top: 52px;
     max-width: 529px;
     display: flex;
     flex-direction: column;
