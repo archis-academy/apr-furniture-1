@@ -204,7 +204,7 @@ label:hover {
 
 /* Mürüvvet Homepage Room Inspirations Start */
 .homepage-room-inspirations-section {
-  /* margin: 0px auto; */
+  margin: 0px 20px;
 }
 
 .homepage-room-inspirations-section .room-inspirations-container {
@@ -218,7 +218,7 @@ label:hover {
 
 .room-inspirations-container .inspirations-text-wrapper {
   width: 422px;
-  margin: 223px 42px 0px 100px;
+  margin: auto;
 }
 
 .inspirations-text-wrapper .inspirations-title {
@@ -251,13 +251,24 @@ label:hover {
   color: rgba(255, 255, 255, 1);
 }
 
-.room-inspirations-container .inspirations-inner-peace {
-  width: 404px;
-  margin: 44px -50px 0px 0px;
+.room-inspirations-container .inspirations-peace {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 44px 0px;
   position: relative;
 }
 
-.inspirations-inner-peace .inner-peace-image {
+.inspirations-peace .inspirations-inner-peace {
+  width: 404px;
+}
+
+/* .inspirations-inner-peace .inner-peace-image {
+  width:404px;
+} */
+
+.inspirations-inner-peace .inner-image {
   width: 100%;
 }
 
@@ -304,9 +315,10 @@ label:hover {
 
 .room-inspirations-container .inspirations-outer-peace {
   width: 404px;
-  margin: 44px 44px 0px 0px;
+  margin-right: 44px;
   position: relative;
 }
+
 
 .outer-peace-images .outer-arrow {
   position: absolute;
@@ -317,19 +329,36 @@ label:hover {
 .inspirations-outer-peace .outer-peace-images {
   display: flex;
   gap: 24px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .inspirations-outer-peace .outer-peace-dots {
-  margin-top: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1300px) {
+  .room-inspirations-container .inspirations-text-wrapper {
+    margin: 50px auto;
+  }
+  .room-inspirations-container .inspirations-peace {
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 930px) {
+  .room-inspirations-container .inspirations-peace {
+    margin: 0px auto;
+    margin-top: 10px;
+    gap: 10px;
+  }
 }
 
 @media (max-width: 500px) {
-  .inspirations-inner-peace .inner-peace-image {
+  .inspirations-inner-peace .inner-image {
       width: 100%;
     }
     .inspirations-outer-peace .outer-peace-images {
