@@ -324,9 +324,6 @@ label:hover {
 /* Mürüvvet Our Product Categories End  */
 
 /* Mürüvvet Our Product Best Sellers Start  */
-.homepage-our-products-section {
-  margin-left: 50px;
-}
 
 .homepage-our-products-section .op-left-menu-lower-container {
   display: flex;
@@ -367,7 +364,7 @@ label:hover {
 }
 
 .best-sellers-product-wrapper .product-image img {
-  /* width: 100%; */
+  width: 100%;
 }
 
 .product-description .product-name {
@@ -400,6 +397,7 @@ label:hover {
   line-height: 16.8px;
 }
 /* Mürüvvet Our Product Best Sellers End  */
+
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
   margin-left: 50px;
