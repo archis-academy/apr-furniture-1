@@ -188,7 +188,18 @@
 
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+}
+
+.homepage-our-products-section .our-products-container {
+  display: flex;
+  max-width: 1350px;
+  margin: 32px auto;
+}
+
+.our-products-container .op-left-menu-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .homepage-our-products-section .op-left-menu-upper-container {
