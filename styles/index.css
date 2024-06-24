@@ -188,25 +188,27 @@
 
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
-  /* margin-left: 50px; */
+  margin: 0px 0px;
 }
 
 .homepage-our-products-section .our-products-container {
-  display: flex;
   max-width: 1350px;
-  margin: 32px auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 80px auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .our-products-container .op-left-menu-container {
   display: flex;
   flex-direction: column;
+  gap: 200px;
 }
 
-.homepage-our-products-section .op-left-menu-upper-container {
+/* .op-left-menu-container .op-left-menu-upper-container {
   display: flex;
-  max-width: 1350px;
-  margin: 32px auto;
-}
+} */
 
 .op-left-menu-upper-container .lmu-accordion {
   display: flex;
@@ -325,11 +327,7 @@ label:hover {
 
 /* Mürüvvet Our Product Best Sellers Start  */
 
-.homepage-our-products-section .op-left-menu-lower-container {
-  display: flex;
-  max-width: 1350px;
-  margin: 200px auto;
-  font-family: "Poppins", sans-serif;
+.our-products-container .op-left-menu-lower-container {
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
@@ -522,20 +520,12 @@ label:hover {
   max-width: 8.16px;
   max-height: 8.16px;
 }
-
 /* Mürüvvet Our Product Categories End  */
 
 
 /* Mürüvvet Our Product Best Sellers Start  */
-.homepage-our-products-section {
-  margin-left: 50px;
-}
-
-.homepage-our-products-section .op-left-menu-lower-container {
+.op-left-menu-container .op-left-menu-lower-container {
   display: flex;
-  max-width: 1350px;
-  margin: 200px auto;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
@@ -603,17 +593,11 @@ label:hover {
   font-size: 14px;
   line-height: 16.8px;
 }
-
 /* Mürüvvet Our Product Best Sellers End  */
 
 /* Mürüvvet  Our Products Section Start  */
-.homepage-shop-section {
-  margin: 0px 50px;
-}
-
-.homepage-shop-section .shop-container {
-  max-width: 900px;
-  font-family: "Poppins", sans-serif;
+.our-products-container .shop-container {
+  width: 900px;
 }
 
 .shop-container .shop-title {
