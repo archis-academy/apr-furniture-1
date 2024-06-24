@@ -200,6 +200,16 @@
   font-family: "Poppins", sans-serif;
 }
 
+.our-products-container .shop-title {
+  display: block;
+  margin: 0px auto 32px auto;
+  /* text-align: center; */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(58, 58, 58, 1);
+}
+
 .our-products-container .op-left-menu-container {
   display: flex;
   flex-direction: column;
@@ -598,15 +608,6 @@ label:hover {
 /* Mürüvvet  Our Products Section Start  */
 .our-products-container .shop-container {
   width: 900px;
-}
-
-.shop-container .shop-title {
-  margin: 0px auto 32px auto;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 48px;
-  color: rgba(58, 58, 58, 1);
 }
 
 .shop-container .shop-products {
