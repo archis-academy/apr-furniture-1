@@ -188,37 +188,35 @@
 
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
-  margin: 0px 0px;
+  margin: 0px 20px;
 }
 
 .homepage-our-products-section .our-products-container {
   max-width: 1350px;
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
   margin: 80px auto;
+  text-align: center;
   font-family: "Poppins", sans-serif;
 }
 
 .our-products-container .shop-title {
-  display: block;
-  margin: 0px auto 32px auto;
-  /* text-align: center; */
+  margin-bottom: 32px;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
   color: rgba(58, 58, 58, 1);
 }
 
-.our-products-container .op-left-menu-container {
+.our-products-container .op-menu-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.op-menu-container .op-left-menu-container {
   display: flex;
   flex-direction: column;
   gap: 200px;
 }
-
-/* .op-left-menu-container .op-left-menu-upper-container {
-  display: flex;
-} */
 
 .op-left-menu-upper-container .lmu-accordion {
   display: flex;
@@ -337,7 +335,7 @@ label:hover {
 
 /* Mürüvvet Our Product Best Sellers Start  */
 
-.our-products-container .op-left-menu-lower-container {
+.op-menu-container .op-left-menu-lower-container {
   font-size: 16px;
   font-weight: 500;
   line-height: 19.2px;
@@ -351,6 +349,7 @@ label:hover {
 
 .lml-bottom-best-sellers .best-sellers-title {
   padding: 10px 0px;
+  text-align: left;
 }
 
 .lml-bottom-best-sellers .best-sellers-title h3 {
@@ -683,9 +682,8 @@ label:hover {
   text-decoration: line-through;
 }
 
-.shop-container .product-show-more {
-  margin: 32px auto 0px auto;
-  text-align: center;
+.our-products-container .show-more {
+  margin-top: 32px;
   padding: 12px 74px 12px 82px;
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(184, 142, 47, 1);
