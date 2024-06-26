@@ -216,7 +216,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 215px;
+  gap: 210px;
 }
 
 .op-left-menu-upper-container .lmu-accordion {
