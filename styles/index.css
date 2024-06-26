@@ -208,15 +208,15 @@
 
 .our-products-container .op-menu-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
-  /* flex-wrap: wrap; */
 }
 
 .op-menu-container .op-left-menu-container {
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  justify-content: flex-start;
+  gap: 220px;
 }
 
 .op-left-menu-upper-container .lmu-accordion {
@@ -409,12 +409,6 @@ label:hover {
 /* Mürüvvet Our Product Categories Start  */
 .homepage-our-products-section {
   margin-left: 50px;
-}
-
-.homepage-our-products-section .op-left-menu-upper-container {
-  display: flex;
-  max-width: 1350px;
-  margin: 32px auto;
 }
 
 .op-left-menu-upper-container .lmu-accordion {
@@ -697,9 +691,14 @@ label:hover {
 }
 
 @media (max-width: 600px) {
+  .our-products-container .shop-title {
+    margin-bottom: 60px;
+    text-align: left;
+  }
   .our-products-container .op-menu-container {
     flex-wrap: wrap;
     gap: 75px;
+    justify-content: flex-start;
   }
   .op-menu-container .op-left-menu-container {
     gap: 75px;
