@@ -51,8 +51,31 @@
 
 .header-section-container .subheader-container {
     background-color: rgba(252, 248, 243, 1);
-
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.subheader-container .shop-filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px;
+}
+
+.shop-filter .filter {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Mürüvvet Shop Header Section End */
 
