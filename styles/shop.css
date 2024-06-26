@@ -1,0 +1,679 @@
+/* Mürüvvet Shop Section Start  */
+.homepage-our-products-section {
+    margin: 0px 20px;
+}
+
+.homepage-our-products-section .our-products-container {
+    max-width: 1350px;
+    margin: 80px auto;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.our-products-container .shop-title {
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.our-products-container .op-menu-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.op-menu-container .op-left-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 210px;
+}
+
+.op-left-menu-upper-container .lmu-accordion {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    padding: 10px 15px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    border-radius: 10px;
+}
+
+.lmu-accordion .a-room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+
+.lmu-accordion #living-room-dropdown,
+.lmu-accordion #bedroom-dropdown,
+.lmu-accordion #dining-room-dropdown,
+.lmu-accordion #home-office-dropdown,
+.lmu-accordion #outdoor-dropdown,
+.lmu-accordion #kids-room-dropdown {
+    display: none;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.lmu-accordion .dropdown-menu {
+    display: none;
+    width: 260px;
+    padding: 0px 10px 15px 10px;
+}
+
+.dropdown-menu .menu-element-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 240px;
+    margin-top: 10px;
+}
+
+.menu-element-item p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.menu-element-item #dropdown-input {
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-element-item #dropdown-input:checked:before {
+    content: '';
+    background-color: rgba(46, 193, 172, 1);
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+.menu-element-item #dropdown-input:checked {
+    accent-color: rgba(46, 193, 172, 1);
+}
+
+#living-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#bedroom-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#dining-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#home-office-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#outdoor-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#kids-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+.lmu-accordion .a-kids-room {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.a-room .text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.a-room .plus-image {
+    max-width: 8.16px;
+    max-height: 8.16px;
+}
+
+.op-menu-container .op-left-menu-lower-container {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.op-left-menu-lower-container .lml-bottom-best-sellers {
+    width: 290px;
+    padding: 10px 0px;
+}
+
+.lml-bottom-best-sellers .best-sellers-title {
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.lml-bottom-best-sellers .best-sellers-title h3 {
+    font-weight: 700;
+}
+
+.lml-bottom-best-sellers .best-sellers-product-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.best-sellers-product-wrapper .product-image {
+    width: 70px;
+    height: 70px;
+}
+
+.best-sellers-product-wrapper .product-image img {
+    width: 100%;
+}
+
+.product-description .product-name {
+    font-weight: 500;
+}
+
+.product-description .product-staring {
+    margin: 5px 0px;
+}
+
+.product-description .product-staring img {
+    width: 11px;
+    height: 11px;
+}
+
+.product-description .product-price-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.product-price-wrapper .product-price1 {
+    font-size: 12px;
+    line-height: 14.4px;
+    color: rgba(172, 172, 172, 1);
+    text-decoration: line-through;
+}
+
+.product-price-wrapper .product-price2 {
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.homepage-our-products-section {
+    margin-left: 50px;
+}
+
+.op-left-menu-upper-container .lmu-accordion {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    padding: 10px 15px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    border-radius: 10px;
+}
+
+.lmu-accordion .a-room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(241, 241, 241, 1);
+}
+
+.lmu-accordion #living-room-dropdown,
+.lmu-accordion #bedroom-dropdown,
+.lmu-accordion #dining-room-dropdown,
+.lmu-accordion #home-office-dropdown,
+.lmu-accordion #outdoor-dropdown,
+.lmu-accordion #kids-room-dropdown {
+    display: none;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.lmu-accordion .dropdown-menu {
+    display: none;
+    width: 260px;
+    padding: 0px 10px 15px 10px;
+}
+
+.dropdown-menu .menu-element-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 240px;
+    margin-top: 10px;
+}
+
+.menu-element-item p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.menu-element-item #dropdown-input {
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-element-item #dropdown-input:checked:before {
+    content: '';
+    background-color: rgba(46, 193, 172, 1);
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-radius: 8px;
+}
+
+.menu-element-item #dropdown-input:checked {
+    accent-color: rgba(46, 193, 172, 1);
+}
+
+#living-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#bedroom-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#dining-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#home-office-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#outdoor-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+#kids-room-dropdown:checked~.dropdown-menu {
+    display: block;
+}
+
+.lmu-accordion .a-kids-room {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.a-room .text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.a-room .plus-image {
+    max-width: 8.16px;
+    max-height: 8.16px;
+}
+
+.op-left-menu-container .op-left-menu-lower-container {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.op-left-menu-lower-container .lml-bottom-best-sellers {
+    width: 290px;
+    padding: 10px 0px;
+
+}
+
+.lml-bottom-best-sellers .best-sellers-title {
+    padding: 10px 0px;
+}
+
+.lml-bottom-best-sellers .best-sellers-title h3 {
+    font-weight: 700;
+}
+
+.lml-bottom-best-sellers .best-sellers-product-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.best-sellers-product-wrapper .product-image {
+    width: 70px;
+    height: 70px;
+}
+
+.best-sellers-product-wrapper .product-image img {
+    /* width: 100%; */
+}
+
+.product-description .product-name {
+    font-weight: 500;
+}
+
+.product-description .product-staring {
+    margin: 5px 0px;
+}
+
+.product-description .product-staring img {
+    width: 11px;
+    height: 11px;
+}
+
+.product-description .product-price-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.product-price-wrapper .product-price1 {
+    font-size: 12px;
+    line-height: 14.4px;
+    color: rgba(172, 172, 172, 1);
+    text-decoration: line-through;
+}
+
+.product-price-wrapper .product-price2 {
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.our-products-container .shop-container {
+    width: 900px;
+}
+
+.shop-container .shop-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.shop-products .shop-product-wrapper {
+    padding: 10px;
+    border: 1px solid rgba(241, 241, 241, 1);
+    border-radius: 10px;
+}
+
+.shop-product-wrapper .product-image {
+    width: 190px;
+    position: relative;
+}
+
+.product-image .shop-image {
+    width: 100%;
+}
+
+.product-image .product-tag {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.shop-product-wrapper .product-description {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.product-description .product-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.product-description .product-model {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(172, 172, 172, 1);
+}
+
+.product-description .product-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.product-description .product-prices {
+    display: flex;
+    gap: 10px;
+}
+
+.product-prices .normal-price {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.product-prices .discounted-price {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    color: rgba(172, 172, 172, 1);
+    text-decoration: line-through;
+}
+
+.our-products-container .show-more {
+    margin-top: 32px;
+    padding: 12px 74px 12px 82px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(184, 142, 47, 1);
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(184, 142, 47, 1);
+}
+
+@media (max-width: 600px) {
+    .our-products-container .shop-title {
+        margin-bottom: 60px;
+        text-align: left;
+    }
+
+    .our-products-container .op-menu-container {
+        flex-wrap: wrap;
+        gap: 75px;
+        justify-content: flex-start;
+    }
+
+    .op-menu-container .op-left-menu-container {
+        gap: 75px;
+    }
+}
+
+@media (max-width: 300px) {
+    .product-image .shop-image {
+        width: 100%;
+    }
+}
+
+/* Mürüvvet Shop Section End  */
+
+.hompage-furniro-gallery {
+    width: 100%;
+    margin: 70px 0px;
+}
+
+.hompage-furniro-gallery-image-text {
+    max-width: 1950px;
+    margin: auto;
+}
+
+.hompage-furniro-gallery-big-title h1 {
+    color: #3a3a3a;
+    text-align: center;
+    font-family: "Poppins", sans;
+    font-size: clamp(30px, 4vw, 40px);
+    font-weight: 700;
+    margin: 55px 0px;
+}
+
+.furniro-gallery {
+    display: flex;
+
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.furniro-gallery-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1950px;
+    animation: 19s slide infinite linear;
+    padding: 20px;
+}
+
+.furniro-gallery-row .logo-img img {
+    width: 100%;
+}
+
+.furniro-gallery-row .logo-img {
+    padding: 0 68.2px;
+}
+
+.furniro-gallery::before,
+.furniro-gallery::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    z-index: 99;
+}
+
+.furniro-gallery-animation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.furniro-gallery-animation2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.furniro-gallery2 {
+    display: flex;
+    row-gap: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.furniro-gallery-row2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1950px;
+    animation: 22s slide infinite linear;
+    padding: 20px;
+}
+
+.furniro-gallery2::before,
+.furniro-gallery2::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    z-index: 99;
+}
+
+.furniro-gallery-row2 .logo-img img {
+    width: 100%;
+}
+
+.furniro-gallery-row2 .logo-img {
+    padding: 0 55.6px;
+}
+
+.furniro-gallery-animation3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.furniro-gallery3 {
+    display: flex;
+    row-gap: 17px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.furniro-gallery-row3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1950px;
+    animation: 28s slide infinite linear;
+    padding: 20px;
+}
+
+.furniro-gallery3::before,
+.furniro-gallery3::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    z-index: 99;
+}
+
+.furniro-gallery-row3 .logo-img img {
+    width: 100%;
+}
+
+.furniro-gallery-row3 .logo-img {
+    padding: 0 55.6px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
