@@ -36,8 +36,6 @@
     font-weight: 500;
 }
 
-.sub-title .dash {}
-
 .blog-subtitle .to-blog {
     font-weight: 300;
 }
@@ -51,9 +49,42 @@
 }
 /* Mürüvvet Blog Header Section End */
 
-
-
-
 /* Mürüvvet Blog Main Section Start */
+.page-blog-main-section {
+    margin: 0px 20px;
+}
 
+.page-blog-main-section .main-section-container {
+    margin: 19px auto;
+}
+
+.main-section-container .blog-explanation {
+    margin-top: 106px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.blog-explanation .blog-read-more {
+    width: 820px;
+}
+
+.blog-read-more .read-more {
+    /* nothing */
+}
+
+.read-more .read-more-image {
+    width: 100%;
+}
+
+.read-more .read-more-information {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    .read-more .read-more-image {
+        width: 100%;
+    }
+}
 /* Mürüvvet Blog Main Section End */
