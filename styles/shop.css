@@ -53,7 +53,7 @@
     background-color: rgba(252, 248, 243, 1);
     margin-top: 1px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .subheader-container .shop-filter {
@@ -65,11 +65,55 @@
 .shop-filter .filter {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
 
+.filter .filter-image {
+    width: 25px;
+    height: 25px;
+}
 
+.filter .filter-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(58, 58, 58, 1);
+}
 
+.shop-filter .filter-vertical-line {
+    margin: 0px 30px;
+}
 
+.shop-filter .filter-showing-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(58, 58, 58, 1);
+    margin: auto;
+    text-align: center;
+}
+
+.subheader-container .filter-properties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.filter-properties .filter-sort-by {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.filter-properties .filter-default {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(172, 172, 172, 1);
+}
 
 
 
