@@ -68,13 +68,13 @@
 }
 
 .blog-explanation .blog-read-more {
-    width: 820px;
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
 .blog-read-more .read-more {
+    width: 820px;
     display: flex;
     flex-direction: column;
 }
