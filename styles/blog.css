@@ -225,6 +225,30 @@
     color:rgba(172, 172, 172, 1);
 }
 
+.main-section-container .blog-buttons {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
+.main-section-container .blog-button {
+    margin-top: 30px;
+    padding: 15px 27px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(58, 58, 58, 1);
+}
+
+.main-section-container .colored {
+    background-color: rgba(184, 142, 47, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
 @media (max-width: 768px) {
     .read-more .read-more-image {
         width: 100%;
