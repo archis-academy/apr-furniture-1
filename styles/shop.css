@@ -593,6 +593,7 @@ label:hover {
     margin-top: 32px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 38px;
 }
 
