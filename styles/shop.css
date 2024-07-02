@@ -54,6 +54,7 @@
     margin-top: 1px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .subheader-container .shop-filter {
@@ -633,3 +634,4 @@ label:hover {
 }
 
 /* Mürüvvet Shop Section End  */
+
